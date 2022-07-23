@@ -18,10 +18,10 @@ Taking into account the ansatz size, our goal is to minimize it as much as possi
 These are algorithms allow the exploration of large solution spaces in order to find the most optimal or closest solutions, since the methodology is meta-heuristic.
 
 ### Step 1. 
-A starting population is created -Initial population.
+A starting population is created -Initial population. En nuestro sistema son cadenas binarias.
 ### Step 2. 
-This population is evaluated in a fitness function. The output of this function will determine whether the individual is accurate for the given problem or not.
+This population is evaluated in a fitness function. The output of this function will determine whether the individual is accurate for the given problem or not. In the proposed technique, the binary strings are converted into quantum circuits qhich will act as feature maps.
 ### Step 3. 
-We select the best individuals. We apply genetic operators of crossover and mutation, generating new individuals.
+We select the best individuals. We apply genetic operators of crossover and mutation, generating new individuals. The mutation operator allows us to reach other points in the search space since it allows us to avoid local minima, making the search for the best solution more efficient.
 ### Step 4. 
 The process is repeated until convergence or when stop conditions are achieved.
