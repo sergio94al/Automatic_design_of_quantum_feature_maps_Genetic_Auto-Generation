@@ -7,6 +7,9 @@ DOI: https://doi.org/10.1088/2058-9565/ac1ab1
 
 In this paper we propose a novel technique that allows the automatic generation of quantum circuits that function as quantum feature maps in QSVM for classification, based on multi-objective genetic algorithms.
 
+<img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Ansatz_build.png" width="700" height="500">
+
+
 ## Genetic Quantum Feature Maps: Objetives
 
 <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/General_Tech.pdf" width="600" height="325">
