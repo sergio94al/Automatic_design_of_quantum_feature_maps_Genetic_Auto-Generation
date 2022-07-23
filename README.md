@@ -12,7 +12,7 @@ In this paper we propose a novel technique that allows the automatic generation 
 
 ## Genetic Quantum Feature Maps: Objetives
 
-<img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/General_Tech.png" width="550" height="500">
+<img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/General_tech.png" width="550" height="500">
 
 The goal of the technique is to achieve the quantum circuit that provides the best test data accuracy, as well as the smallest ansatz size. As the objective of the fitness function is the test accuracy, we force the circuit to be robust and there is no overfitting. 
 
