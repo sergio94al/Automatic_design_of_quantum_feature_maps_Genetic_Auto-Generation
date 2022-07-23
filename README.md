@@ -11,4 +11,17 @@ In this paper we propose a novel technique that allows the automatic generation 
 
 The goal of the technique is to achieve the quantum circuit that provides the best test data accuracy, as well as the smallest ansatz size. As the objective of the fitness function is the test accuracy, we force the circuit to be robust and there is no overfitting. 
 
-Taking into account the ansatz size, our goal is to minimize it as much as possible in order to have solutions that avoid expressibility problems. In addition, we penalize the occurrence of CNOT (entangling gates), in order to achieve quantum-inspired solutions.
+Taking into account the ansatz size, our goal is to minimize it as much as possible in order to have solutions that avoid expressibility problems. In addition, we penalize the occurrence of CNOT (entangling gates), in order to achieve solutions with lower computational cost and quantum-inspired solutions.
+
+## Genetic Algorithms
+
+These are algorithms allow the exploration of large solution spaces in order to find the most optimal or closest solutions, since the methodology is meta-heuristic.
+
+### Step 1. 
+A starting population is created -Initial population.
+### Step 2. 
+This population is evaluated in a fitness function. The output of this function will determine whether the individual is accurate for the given problem or not.
+### Step 3. 
+We select the best individuals. We apply genetic operators of crossover and mutation, generating new individuals.
+### Step 4. 
+The process is repeated until convergence or when stop conditions are achieved.
