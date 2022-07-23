@@ -9,6 +9,8 @@ In this paper we propose a novel technique that allows the automatic generation 
 
 ## Genetic Quantum Feature Maps: Objetives
 
+<https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/General_Tech.pdf" width="600" height="325">
+
 The goal of the technique is to achieve the quantum circuit that provides the best test data accuracy, as well as the smallest ansatz size. As the objective of the fitness function is the test accuracy, we force the circuit to be robust and there is no overfitting. 
 
 Taking into account the ansatz size, our goal is to minimize it as much as possible in order to have solutions that avoid expressibility problems. In addition, we penalize the occurrence of CNOT (entangling gates), in order to achieve solutions with lower computational cost and quantum-inspired solutions.
@@ -16,6 +18,8 @@ Taking into account the ansatz size, our goal is to minimize it as much as possi
 ## Genetic Algorithms
 
 These are algorithms allow the exploration of large solution spaces in order to find the most optimal or closest solutions, since the methodology is meta-heuristic.
+
+<https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/GA.pdf" width="600" height="325">
 
 ### Step 1. 
 A starting population is created -Initial population. En nuestro sistema son cadenas binarias.
@@ -25,3 +29,7 @@ This population is evaluated in a fitness function. The output of this function 
 We select the best individuals. We apply genetic operators of crossover and mutation, generating new individuals. The mutation operator allows us to reach other points in the search space since it allows us to avoid local minima, making the search for the best solution more efficient.
 ### Step 4. 
 The process is repeated until convergence or when stop conditions are achieved.
+
+## References
+
+S. Altares-López, A. Ribeiro, J.J. García-Ripoll, Automatic design of quantum feature maps, Quantum Science and Technology, vol. 6, no.4, 2021. 
