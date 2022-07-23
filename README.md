@@ -19,7 +19,7 @@ Taking into account the ansatz size, our goal is to minimize it as much as possi
 
 These are algorithms allow the exploration of large solution spaces in order to find the most optimal or closest solutions, since the methodology is meta-heuristic.
 
-<img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/GA.png" width="500" height="500">
+<img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/GA.png" width="700" height="500">
 
 ### Step 1. 
 A starting population is created -Initial population. En nuestro sistema son cadenas binarias.
