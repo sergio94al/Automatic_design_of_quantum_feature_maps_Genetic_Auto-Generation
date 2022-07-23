@@ -35,4 +35,4 @@ The process is repeated until convergence or when stop conditions are achieved.
 
 ## References
 
-S. Altares-López, A. Ribeiro, J.J. García-Ripoll, Automatic design of quantum feature maps, Quantum Science and Technology, vol. 6, no.4, 2021. 
+S. Altares-López, A. Ribeiro, J.J. García-Ripoll, Automatic design of quantum feature maps, Quantum Science and Technology, vol. 6, no.4, 2021. https://doi.org/10.1088/2058-9565/ac1ab1
