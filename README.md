@@ -52,6 +52,7 @@ The resulting circuit can be decomposed by qubits because there are no entanglin
 * gsvm.py: Genetic algorithm function in order. We call the fitness function
 * qsvm.py: We create a simulated quantum support vector machine by using sklearn.
 * encoding.py: In this file we create the encoding of the quantum gates and the parameters θ.
+* encoding2.py: This file is used to visualize the solution after the evolution.
 * Sample_Usecase.ipynb: Notebook used to initialize and save the best population in the evolution in excel, so it can be decoded into a quantum circuit.
 
 
