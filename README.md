@@ -25,14 +25,10 @@ These are algorithms allow the exploration of large solution spaces in order to 
 
 <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/GA.png" width="450" height="300">
 
-##### Step 1. 
-A starting population is created -Initial population. In our case individuals are binary strings.
-##### Step 2. 
-This population is evaluated in a fitness function. The output of this function will determine whether the individual is accurate for the given problem or not. In the proposed technique, the binary strings are converted into quantum circuits qhich will act as feature maps.
-##### Step 3. 
-We select the best individuals. We apply genetic operators of crossover (Two-points) and mutation (Flipbit), generating new individuals (offspring) for the next generation. The mutation operator allows us to reach other points in the search space since it allows us to avoid local minima, making the search for the best solution more efficient.
-##### Step 4. 
-The process is repeated until convergence or when stop conditions are achieved.
+* Step 1: A starting population is created -Initial population. In our case individuals are binary strings.
+* Step 2: This population is evaluated in a fitness function. The output of this function will determine whether the individual is accurate for the given problem or not. In the proposed technique, the binary strings are converted into quantum circuits qhich will act as feature maps.
+* Step 3: We select the best individuals. We apply genetic operators of crossover (Two-points) and mutation (Flipbit), generating new individuals (offspring) for the next generation. The mutation operator allows us to reach other points in the search space since it allows us to avoid local minima, making the search for the best solution more efficient.
+* Step 4: The process is repeated until convergence or when stop conditions are achieved.
 
 ## Interpretability of results
 
@@ -56,4 +52,4 @@ The resulting circuit can be decomposed by qubits because there are no entanglin
 
 ## References
 
-S. Altares-López, A. Ribeiro, J.J. García-Ripoll, Automatic design of quantum feature maps, Quantum Science and Technology, vol. 6, no.4, 2021. https://doi.org/10.1088/2058-9565/ac1ab1
+* S. Altares-López, A. Ribeiro, J.J. García-Ripoll, Automatic design of quantum feature maps, Quantum Science and Technology, vol. 6, no.4, 2021. https://doi.org/10.1088/2058-9565/ac1ab1
