@@ -1,4 +1,6 @@
-# Automatic design of quantum feature maps: Genetically designed Quantum Kernels
+# Automatic design of quantum feature maps
+
+## Genetically designed Quantum-Inspired Kernels
 
 This is the official code of the paper published on August 19, 2021: S. Altares-López, A. Ribeiro, J.J. García-Ripoll, Automatic design
 of quantum feature maps, Quantum Science and Technology, vol. 6, no.4, 2021. 
@@ -14,7 +16,7 @@ In this paper we propose a novel technique that allows the automatic generation 
 
 <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/General_tech.png" width="600" height="500">
 
-The goal of the technique is to achieve the quantum circuit that provides the best test data accuracy, as well as the smallest ansatz size. As the objective of the fitness function is the test accuracy, we force the circuit to be robust and there is no overfitting. 
+The goal of the technique is to achieve the quantum circuit that provides the best test data accuracy, as well as the smallest ansatz size. As the objective of the fitness function is the test accuracy, we force the circuit to be robust and to avoid overfitting effects. 
 
 Taking into account the ansatz size, our goal is to minimize it as much as possible in order to have solutions that avoid expressibility problems. In addition, we penalize the occurrence of CNOT (entangling gates), in order to achieve solutions with lower computational cost and quantum-inspired solutions.
 
@@ -35,12 +37,11 @@ The process is repeated until convergence or when stop conditions are achieved.
 
 ## Interpretability of Results
 
-Una vez ha terminado la evolución, obtenemos el circuito con mejor accuracy en test -con lo que aseguramos que no hay overfitting en los datos de train y que existe generalización y robustez en el clasificador cuántico- y con menor número de puertas cuánticas.
+Once the evolution is finished, we obtain the optimized quantum circuit with the best test accuracy - thus ensuring that there is no overfitting on the train data and that there is generalization and robustness in the quantum classifier - and with the lowest number of quantum gates.
 
 <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Optimized quantum feature map - moons.png" width="250" height="150">
 
-
-
+The resulting circuit can be decomposed by qubits because there are no entangling gates among them. We note that each qubit separately does not provide a high accuracy, however, the combination of all kernels produces a prediction of 1.0 in test data.
 
 <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Qubits_Interpretability.png" width="400" height="250">
 
