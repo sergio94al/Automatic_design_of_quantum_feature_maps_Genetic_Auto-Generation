@@ -10,7 +10,7 @@ In this paper we propose a novel technique that allows the automatic generation 
 <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Ansatz_build.png" width="400" height="250">
 
 
-## Genetic Quantum Feature Maps: Objetives
+## Genetic Quantum Feature Maps: Technique
 
 <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/General_tech.png" width="600" height="500">
 
