@@ -11,6 +11,10 @@ DOI: https://doi.org/10.1088/2058-9565/ac1ab1
 
 In this paper we propose a novel technique that allows the automatic generation of quantum circuits that function as quantum feature maps in QSVM for classification, based on multi-objective genetic algorithms.
 
+<p align="center">
+  <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/General_tech.png" width="600" height="500">
+</p>
+
 <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/General_tech.png" width="600" height="500">
 
 The goal of the technique is to achieve the quantum circuit that provides the best test data accuracy, as well as the smallest ansatz size. As the objective of the fitness function is the test accuracy, we force the circuit to be robust and to avoid overfitting effects. 
