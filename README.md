@@ -37,7 +37,7 @@ The process is repeated until convergence or when stop conditions are achieved.
 
 Una vez ha terminado la evolución, obtenemos el circuito con mejor accuracy en test -con lo que aseguramos que no hay overfitting en los datos de train y que existe generalización y robustez en el clasificador cuántico- y con menor número de puertas cuánticas.
 
-<img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Optimized quantum feature map - moons.png" width="250" height="200">
+<img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Optimized quantum feature map - moons.png" width="250" height="150">
 
 
 
