@@ -33,6 +33,11 @@ We select the best individuals. We apply genetic operators of crossover and muta
 ### Step 4. 
 The process is repeated until convergence or when stop conditions are achieved.
 
+
+<img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Qubits_Interpretability.png" width="400" height="250">
+
+
+
 ## References
 
 S. Altares-López, A. Ribeiro, J.J. García-Ripoll, Automatic design of quantum feature maps, Quantum Science and Technology, vol. 6, no.4, 2021. https://doi.org/10.1088/2058-9565/ac1ab1
