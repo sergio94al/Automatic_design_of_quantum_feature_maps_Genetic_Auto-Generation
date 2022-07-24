@@ -18,7 +18,7 @@ In this paper we propose a novel technique that allows the automatic generation 
 
 The goal of the technique is to achieve the quantum circuit that provides the best test data accuracy, as well as the smallest ansatz size. As the objective of the fitness function is the test accuracy, we force the circuit to be robust and to avoid overfitting effects. 
 
-Taking into account the ansatz size, our goal is to minimize it as much as possible in order to have solutions that avoid expressibility problems. In addition, we penalize the occurrence of CNOT (entangling gates), in order to achieve solutions with lower computational cost and quantum-inspired solutions.
+Taking into account the ansatz size, our goal is to minimize it as much as possible in order to have solutions that avoid expressibility problems. This is possible because we code identity gates, which allows the possibility of eliminating gates, layers and even number of qubits in the circuits. In addition, we penalize the occurrence of CNOT (entangling gates), in order to achieve solutions with lower computational cost and quantum-inspired solutions.
 
 ## Genetic Algorithms
 
@@ -44,6 +44,16 @@ Once the evolution is finished, we obtain the optimized quantum circuit with the
 The resulting circuit can be decomposed by qubits because there are no entangling gates among them. We note that each qubit separately does not provide a high accuracy, however, the combination of all kernels produces a prediction of 1.0 in test data.
 
 <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Qubits_Interpretability.png" alt='qubits vs. quantum circuit' width="400" height="250">
+
+## Files description
+
+circuit.py: We create the quantum operators
+fitness.py: Evaluation fuction of the genetic algorithm (we fit 2 variables to return -the objetives)
+gsvm.py: Genetic algorithm function in order. We call the fitness function
+qsvm.py: We create a simulated quantum support vector machine by using sklearn.
+Sample_Usecase.ipynb: Notebook used to initialize and save the best population in the evolution in excel, so it can be decoded into a quantum circuit.
+
+
 
 
 
