@@ -19,7 +19,7 @@ Taking into account the ansatz size, our goal is to minimize it as much as possi
 
 <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Ansatz_build.png" width="400" height="250">
 
-## Genetic Algorithms
+## Genetic algorithms (GA)
 
 These are algorithms allow the exploration of large solution spaces in order to find the most optimal or closest solutions, since the methodology is meta-heuristic.
 
@@ -34,7 +34,7 @@ We select the best individuals. We apply genetic operators of crossover and muta
 ###### Step 4. 
 The process is repeated until convergence or when stop conditions are achieved.
 
-## Interpretability of Results
+## Interpretability of results
 
 Once the evolution is finished, we obtain the optimized quantum circuit with the best test accuracy - thus ensuring that there is no overfitting on the train data and that there is generalization and robustness in the quantum classifier - and with the lowest number of quantum gates.
 
