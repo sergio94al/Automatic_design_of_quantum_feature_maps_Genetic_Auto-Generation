@@ -39,7 +39,7 @@ The process is repeated until convergence or when stop conditions are achieved.
 
 Once the evolution is finished, we obtain the optimized quantum circuit with the best test accuracy - thus ensuring that there is no overfitting on the train data and that there is generalization and robustness in the quantum classifier - and with the lowest number of quantum gates.
 
-<img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/DS.png" width="250" height="150">  <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Optimized quantum feature map - moons.png" width="250" height="150">
+<img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/DS.png" width="250" height="150">               <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Optimized quantum feature map - moons.png" width="250" height="150">
 
 The resulting circuit can be decomposed by qubits because there are no entangling gates among them. We note that each qubit separately does not provide a high accuracy, however, the combination of all kernels produces a prediction of 1.0 in test data.
 
