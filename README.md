@@ -21,9 +21,12 @@ Taking into account the ansatz size, our goal is to minimize it as much as possi
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Ansatz_build.png" width="400" height="250">
 </p>
 
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+
 ## Genetic algorithms (GA)
 
-These are algorithms allow the exploration of large solution spaces in order to find the most optimal or closest solutions, since the methodology is meta-heuristic. Since we have two objectives, we use Pareto Front in order to save the best non-dominated solutions. Those solutions that improve one of the two objectives without getting worse results in the other effort metric will be saved.
+These are algorithms allow the exploration of large solution spaces in order to find the most optimal or closest solutions, since the methodology is meta-heuristic. Since we have two objectives, we use Pareto Front in order to save the best non-dominated solutions. Those solutions that, improve one of the two objectives without getting worse results in the other effort metric are saved.
 
 <p align="center">
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/GA.png" width="450" height="300">
