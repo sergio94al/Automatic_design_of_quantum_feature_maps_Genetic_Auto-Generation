@@ -17,8 +17,8 @@ The goal of the technique is to achieve the quantum circuit that provides the **
 
 * Maximize Accuracy
 * Minimize quantum classifier size
-* Generate an automatic and optimized data encoding in the feature map
-* Optimization of the circuit topology and its parameters *θ*
+* Generate an automatic and optimized data encoding in the quantum feature map
+* Optimization of the circuit structure, gates types and its parameters *θ*
 * Find robutness classifiers with a high generalization power
 * Search of quantum-inspired solutions
 * Provide interpretability to the predicted results
