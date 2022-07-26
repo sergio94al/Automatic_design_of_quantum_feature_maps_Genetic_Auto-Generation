@@ -78,6 +78,23 @@ The resulting circuit can be decomposed by qubits because there are no entanglin
 * encoding2.py: This file is used to visualize the solution after the evolution.
 * Sample_Usecase.ipynb: Notebook used to launch the quantum feature maps' evolution, and save the best individuals which appear along the evolution in an excel file, so it can be decoded into a quantum circuit. 
 
+
+## Cite
+
+Authors of scientific papers including results generated using this technique are encouraged to cite the following paper.
+
+@article{altares2021automatic,
+  title={Automatic design of quantum feature maps},
+  author={Altares-L{\'o}pez, Sergio and Ribeiro, Angela and Garc{\'\i}a-Ripoll, Juan Jos{\'e}},
+  journal={Quantum Science and Technology},
+  volume={6},
+  number={4},
+  pages={045015},
+  year={2021},
+  publisher={IOP Publishing}
+}
+
+
 ## References
 
 * S. Altares-López, A. Ribeiro, J.J. García-Ripoll, "Automatic design of quantum feature maps", Quantum Science and Technology, vol. 6, no.4, 2021. https://doi.org/10.1088/2058-9565/ac1ab1
