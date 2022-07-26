@@ -66,7 +66,7 @@ The resulting circuit can be decomposed by qubits because there are no entanglin
 * qsvm.py: We create a simulated quantum support vector machine by using sklearn.
 * encoding.py: In this file we create the encoding of the quantum gates and the parameters θ.
 * encoding2.py: This file is used to visualize the solution after the evolution.
-* Sample_Usecase.ipynb: Notebook used to initialize and save the best population in the evolution in excel, so it can be decoded into a quantum circuit.
+* Sample_Usecase.ipynb: Notebook used to initialize and save the best population in the evolution in excel, so it can be decoded into a quantum circuit. The output is an excel file with the best individuals that appeared along the evolution.
 
 ## References
 
