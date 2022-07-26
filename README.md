@@ -68,7 +68,7 @@ Once the evolution is finished, we obtain the optimized quantum circuit with the
 The resulting circuit can be decomposed by qubits because there are no entangling gates among them. We note that each qubit separately does not provide a high accuracy, however, the **combination of all kernels produces a prediction of 1.0 in test data**.
 
 <p align="center">
-    <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Qubits_Interpretability.png" alt='qubits vs. quantum circuit' width="400" height="250">   
+    <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Qubits_Interpretability.png" alt='qubits vs. quantum circuit' width="500" height="275">   
 </p>
 
 
