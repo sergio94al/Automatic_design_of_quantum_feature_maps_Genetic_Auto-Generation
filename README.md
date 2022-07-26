@@ -72,3 +72,9 @@ The resulting circuit can be decomposed by qubits because there are no entanglin
 
 * S. Altares-López, A. Ribeiro, J.J. García-Ripoll, "Automatic design of quantum feature maps", Quantum Science and Technology, vol. 6, no.4, 2021. https://doi.org/10.1088/2058-9565/ac1ab1
 * De Rainville, F. M., Fortin, F. A., Gardner, M. A., Parizeau, M., & Gagné, C. (2012, July). Deap: A python framework for evolutionary algorithms. In Proceedings of the 14th annual conference companion on Genetic and evolutionary computation (pp. 85-92). https://doi.org/10.1145/2330784.2330799
+
+## Technique Cited by
+
+* Huang, Y., Li, Q., Hou, X., Wu, R., Yung, M. H., Bayat, A., & Wang, X. (2022). Robust resource-efficient quantum variational ansatz through an evolutionary algorithm. Physical Review A, 105(5), 052414.
+* Torabian, E., & Krems, R. V. (2022). Optimal quantum kernels for small data classification. arXiv preprint arXiv:2203.13848.
+* Anand, A., Kottmann, J. S., & Aspuru-Guzik, A. (2022). Quantum compression with classically simulatable circuits. arXiv e-prints, arXiv-2207.
