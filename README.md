@@ -9,11 +9,11 @@ DOI: https://doi.org/10.1088/2058-9565/ac1ab1
 
 * Maximize Accuracy
 * Minimize quantum classifier size, in terms of quantum gates, layers and number of qubits, thus, reducing the expressibility of the circuits.
-* Generate an automatic and optimized data encoding in the quantum feature map
-* Optimization of the circuit structure, gates types and its parameters *θ*
-* Find robutness classifiers with a high generalization power
-* Search of quantum-inspired solutions
-* Provide interpretability to the predicted results
+* Generate an automatic and optimized data encoding in the quantum feature maps.
+* Optimization of the circuit structure, gates types and its parameters *θ*.
+* Find robutness classifiers with a high generalization power.
+* Search of quantum-inspired solutions.
+* Provide interpretability to the predicted results.
 
 ## Genetic-Quantum Feature Maps: Technique
 
