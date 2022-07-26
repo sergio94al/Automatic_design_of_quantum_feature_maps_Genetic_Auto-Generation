@@ -17,7 +17,7 @@ DOI: https://doi.org/10.1088/2058-9565/ac1ab1
 
 ## Genetic-Quantum Feature Maps: Technique
 
-In this paper we propose a novel technique for quantum machine learning (QML) which allows the automatic generation of quantum-inspired kernels for classification by using Quantum Support Vector Machine (QSVM), based on multi-objective genetic algorithms.
+In this paper we propose a novel technique for quantum machine learning (QML) which allows for tabular datasets the automatic generation of quantum-inspired kernels for classification by using Quantum Support Vector Machine (QSVM), based on multi-objective genetic algorithms.
 
 <p align="center">
   <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/General_tech.png" width="500" height="400">
