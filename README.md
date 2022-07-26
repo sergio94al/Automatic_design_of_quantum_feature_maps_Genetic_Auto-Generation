@@ -24,7 +24,7 @@ Taking into account the ansatz size, our goal is to minimize it as much as possi
  In addition, we penalize the occurrence of CNOT (entangling gates), in order to achieve solutions with lower computational cost and quantum-inspired solutions, by using the following expression.
 
 <p align="center">
-    <img src="https://latex.codecogs.com/svg.latex?\Large&space;\text{Size Metric (SM)} = \frac{N_\text{local} + 2 N_\text{CNOT}}{N_\text{qubits}}." title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+    <img src="https://latex.codecogs.com/svg.latex?\Large&space;Size Metric (SM) = \frac{N_\text{local} + 2 N_\text{CNOT}}{N_\text{qubits}}."/>
 </p>
 
 ## Genetic algorithms (GA)
