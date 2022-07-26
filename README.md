@@ -40,7 +40,7 @@ These are algorithms allow the exploration of large solution spaces in order to 
 * **Step 2**: This population is evaluated in a fitness function. The output of this function will determine whether the individual is accurate for the given problem or not. In the proposed technique, the binary strings are converted into quantum circuits which will act as feature maps into QSVM. First the classifier is fitted with training set and then we make predictions over test set, getting the objetive of deethe fitness function.  At the same time, we calculate the number of gates and we calculate a metric -Weight Control- in order to find a balance between the accuracy and the reduction of number of gates. It is important since a high weight on the reducing circuit size objetive can lead less accuracy because of information loss.
 
 <p align="center">
-    <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Wcontrol.png" width="250" height="20">
+    <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Wcontrol.png" width="350" height="50">
 </p>
 
 * **Step 3**: We select the best individuals. We apply genetic operators of crossover (Two-points) and mutation (Flipbit), generating new individuals (offspring) for the next generation. The mutation operator allows us to reach other points in the search space since it allows us to avoid local minima, making the search for the best solution more efficient.
