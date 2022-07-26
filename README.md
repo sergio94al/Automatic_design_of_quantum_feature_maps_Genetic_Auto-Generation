@@ -71,7 +71,7 @@ The resulting circuit can be decomposed by qubits because there are no entanglin
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Qubits_Interpretability.png" alt='qubits vs. quantum circuit' width="500" height="325">   
 </p>
 
-By using this technique, we are able to include **many variables in few qubits**, because the genetic algorithm takes into account the combination of variables in each line of qubits as in the Parkinson's example. In this use case 22 variables are included in 8 qubits, decreasing considerably the expressivity of the circuit solution.
+By using this technique, we are able to include **many variables in few qubits**, because the genetic algorithm takes into account the combination of variables in each line of qubits as in the Parkinson's example [4]. In this use case 22 variables are included in 8 qubits, decreasing considerably the expressivity of the circuit solution.
 
 <p align="center">
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/park.png" alt='qubits vs. quantum circuit' width="500" height="300"> 
@@ -115,4 +115,5 @@ Authors of scientific papers including results generated using this technique or
 * [1] S. Altares-López, A. Ribeiro, J.J. García-Ripoll, *Automatic design of quantum feature maps*, Quantum Science and Technology, vol. 6, no.4, 2021. https://doi.org/10.1088/2058-9565/ac1ab1
 * [2] De Rainville, F. M., Fortin, F. A., Gardner, M. A., Parizeau, M., & Gagné, C. (2012, July). *Deap: A python framework for evolutionary algorithms*. In Proceedings of the 14th annual conference companion on Genetic and evolutionary computation (pp. 85-92). https://doi.org/10.1145/2330784.2330799
 * [3] Patel H 2020 Intelligent irrigation system (by using temperature and moisture data) - Kaggle Dataset. https://www.kaggle.com/harshilpatel355/autoirrigationdata
+* [4] Little, M., Mcsharry, P., Roberts, S., Costello, D., & Moroz, I. (2007). Exploiting nonlinear recurrence and fractal scaling properties for voice disorder detection. Nature Precedings, 1-1.
 
