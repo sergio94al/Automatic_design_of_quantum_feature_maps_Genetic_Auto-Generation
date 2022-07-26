@@ -82,8 +82,7 @@ The resulting circuit can be decomposed by qubits because there are no entanglin
 * encoding2.py: This file is used to visualize the solution after the evolution.
 * Sample_Usecase.ipynb: Notebook used to launch the quantum feature maps' evolution, and save the best individuals which appear along the evolution in an excel file, so it can be decoded into a quantum circuit. 
 * sample_iot_data.csv: Dataset free available on Kaggle. Used as an example.
-* sample_iot_result_n5: Output file with the best individuals in the evolution. The structure of the file is: 
-* ID *  Individual (quantum classifier) to decode * Accuracy * Weight control metric*
+* sample_iot_result_n5: Output file with the best individuals in the evolution. The structure of the file is:  ID *  Individual (quantum classifier) to decode * Accuracy * Weight control metric*
 
 
 ## How to Cite
@@ -110,3 +109,5 @@ Authors of scientific papers including results generated using this technique ar
 
 * S. Altares-López, A. Ribeiro, J.J. García-Ripoll, *Automatic design of quantum feature maps*, Quantum Science and Technology, vol. 6, no.4, 2021. https://doi.org/10.1088/2058-9565/ac1ab1
 * De Rainville, F. M., Fortin, F. A., Gardner, M. A., Parizeau, M., & Gagné, C. (2012, July). *Deap: A python framework for evolutionary algorithms*. In Proceedings of the 14th annual conference companion on Genetic and evolutionary computation (pp. 85-92). https://doi.org/10.1145/2330784.2330799
+* Patel H 2020 Intelligent irrigation system (by using temperature and moisture data) - Kaggle Dataset. https://www.kaggle.com/harshilpatel355/autoirrigationdata
+
