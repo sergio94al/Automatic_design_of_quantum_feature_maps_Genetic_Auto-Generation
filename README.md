@@ -7,7 +7,7 @@ DOI: https://doi.org/10.1088/2058-9565/ac1ab1
 
 ## Goals of the Technique
 
-* Maximize Accuracy
+* Maximize Accuracy.
 * Minimize quantum classifier size, in terms of quantum gates, layers and number of qubits, thus, reducing the expressibility of the circuits.
 * Generate an automatic and optimized data encoding in the quantum feature maps.
 * Optimization of the circuit structure, gates types and its parameters *θ*.
