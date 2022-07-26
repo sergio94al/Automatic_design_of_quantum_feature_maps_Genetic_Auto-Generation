@@ -83,7 +83,7 @@ By using this technique, we are able to include **many variables in few qubits**
 * fitness.py: Evaluation fuction of the genetic algorithm (we fit 2 variables to return -the objetives)
 * gsvm.py: Genetic algorithm function with the genetic operators. We call the fitness function.
 * qsvm.py: We create a simulated quantum support vector machine by using sklearn.
-* encoding.py: In this file we create the encoding of the quantum gates and the parameters θ.
+* encoding.py: In this file we create the encoding of the quantum gates and the parameters *θ*.
 * encoding2.py: This file is used to visualize the solution after the evolution.
 * Sample_Usecase.ipynb: Notebook used to launch the quantum feature maps' evolution, and save the best individuals which appear along the evolution in an excel file, so it can be decoded into a quantum circuit. 
 * sample_iot_data.csv: Dataset free available on Kaggle. Used as an example [3].
