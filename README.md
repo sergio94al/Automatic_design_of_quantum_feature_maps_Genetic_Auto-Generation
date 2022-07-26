@@ -1,7 +1,7 @@
 # Automatic Design of Quantum Feature Maps:  Quantum-Inspired Kernels generated Genetically
 
 This is the official code of the paper published on August 19, 2021: S. Altares-López, A. Ribeiro, J.J. García-Ripoll, *Automatic design
-of quantum feature maps*, Quantum Science and Technology, vol. 6, no.4, 2021. 
+of quantum feature maps*, Quantum Science and Technology, vol. 6, no.4, 2021 [1]. 
 
 DOI: https://doi.org/10.1088/2058-9565/ac1ab1
 
@@ -39,7 +39,7 @@ Taking into account the ansatz size, our goal is to minimize it as much as possi
 
 ## Multi-Objetive Genetic Algorithm (GA)
 
-These are algorithms allow the exploration of large solution spaces in order to find the most optimal or closest solutions, since the methodology is meta-heuristic. Since we have two objectives, we use **NSGA-II algorithm and Pareto Front, in order to find and save the non-dominated solutions**. Those solutions that, improve one of the two objectives without getting worse results in the other effort metric are saved. In order to provide a higher degree of elitism to the technique, we use the μ+λ algorithm, which face parents against their offspring, keeping the best individuals for the following generations.
+These are algorithms allow the exploration of large solution spaces in order to find the most optimal or closest solutions, since the methodology is meta-heuristic [2]. Since we have two objectives, we use **NSGA-II algorithm and Pareto Front, in order to find and save the non-dominated solutions**. Those solutions that, improve one of the two objectives without getting worse results in the other effort metric are saved. In order to provide a higher degree of elitism to the technique, we use the μ+λ algorithm, which face parents against their offspring, keeping the best individuals for the following generations.
 
 <p align="center">
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/GA.png" width="450" height="300">
@@ -81,8 +81,8 @@ The resulting circuit can be decomposed by qubits because there are no entanglin
 * encoding.py: In this file we create the encoding of the quantum gates and the parameters θ.
 * encoding2.py: This file is used to visualize the solution after the evolution.
 * Sample_Usecase.ipynb: Notebook used to launch the quantum feature maps' evolution, and save the best individuals which appear along the evolution in an excel file, so it can be decoded into a quantum circuit. 
-* sample_iot_data.csv: Dataset free available on Kaggle. Used as an example.
-* sample_iot_result_n5: Output file with the best individuals in the evolution. The structure of the file is:  ID *  Individual (quantum classifier) to decode * Accuracy * Weight control metric*
+* sample_iot_data.csv: Dataset free available on Kaggle. Used as an example [3].
+* sample_iot_result_n5.csv: Output file with the best individuals in the evolution. The structure of the file is:  ID *  Individual (quantum classifier) to decode * Accuracy * Weight control metric*
 
 
 ## How to Cite
@@ -107,7 +107,7 @@ Authors of scientific papers including results generated using this technique ar
 
 ## References
 
-* S. Altares-López, A. Ribeiro, J.J. García-Ripoll, *Automatic design of quantum feature maps*, Quantum Science and Technology, vol. 6, no.4, 2021. https://doi.org/10.1088/2058-9565/ac1ab1
-* De Rainville, F. M., Fortin, F. A., Gardner, M. A., Parizeau, M., & Gagné, C. (2012, July). *Deap: A python framework for evolutionary algorithms*. In Proceedings of the 14th annual conference companion on Genetic and evolutionary computation (pp. 85-92). https://doi.org/10.1145/2330784.2330799
-* Patel H 2020 Intelligent irrigation system (by using temperature and moisture data) - Kaggle Dataset. https://www.kaggle.com/harshilpatel355/autoirrigationdata
+* [1] S. Altares-López, A. Ribeiro, J.J. García-Ripoll, *Automatic design of quantum feature maps*, Quantum Science and Technology, vol. 6, no.4, 2021. https://doi.org/10.1088/2058-9565/ac1ab1
+* [2] De Rainville, F. M., Fortin, F. A., Gardner, M. A., Parizeau, M., & Gagné, C. (2012, July). *Deap: A python framework for evolutionary algorithms*. In Proceedings of the 14th annual conference companion on Genetic and evolutionary computation (pp. 85-92). https://doi.org/10.1145/2330784.2330799
+* [3] Patel H 2020 Intelligent irrigation system (by using temperature and moisture data) - Kaggle Dataset. https://www.kaggle.com/harshilpatel355/autoirrigationdata
 
