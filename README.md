@@ -96,7 +96,10 @@ Authors of scientific papers including results generated using this technique ar
   volume={6},
   number={4},
   pages={045015},
+	month = {aug},
   year={2021},
+  doi = {10.1088/2058-9565/ac1ab1},
+	url = {https://doi.org/10.1088%2F2058-9565%2Fac1ab1},
   publisher={IOP Publishing}
 }
 ```
