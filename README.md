@@ -10,8 +10,8 @@ DOI: https://doi.org/10.1088/2058-9565/ac1ab1
 * Maximize Accuracy.
 * Minimize quantum classifier size, in terms of quantum gates, layers and number of qubits, thus, reducing the expressibility of the circuits.
 * Generate an automatic and optimized data encoding in the quantum feature maps.
-* Optimization of the circuit structure, gates types and its parameters *θ*.
-* Find robutness classifiers with a high generalization power.
+* Optimization of the circuit structure, gate types and its parameters *θ*.
+* Find robustness classifiers with a high generalization power.
 * Search of quantum-inspired solutions.
 * Provide interpretability to the predicted results.
 
@@ -70,6 +70,8 @@ The resulting circuit can be decomposed by qubits because there are no entanglin
 <p align="center">
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Qubits_Interpretability.png" alt='qubits vs. quantum circuit' width="500" height="325">   
 </p>
+
+By using this technique, we are able to include many variables in few qubits, because the genetic algorithm takes into account the combination of variables in each line of qubits as in the Parkinson's example. In this use case 22 variables are included in 8 qubits, decreasing considerably the expressivity of the solution circuit.
 
 
 ## Files description
