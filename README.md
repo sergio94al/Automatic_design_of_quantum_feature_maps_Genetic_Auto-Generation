@@ -42,7 +42,7 @@ Taking into account the ansatz size, our goal is to minimize it as much as possi
 These are algorithms allow the exploration of large solution spaces in order to find the most optimal or closest solutions, since the methodology is meta-heuristic [2]. Since we have two objectives, we use **NSGA-II algorithm and Pareto Front, in order to find and save the non-dominated solutions**. Those solutions that, improve one of the two objectives without getting worse results in the other effort metric are saved. In order to provide a higher degree of elitism to the technique, we use the μ+λ algorithm, which face parents against their offspring, keeping the best individuals for the following generations.
 
 <p align="center">
-    <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/GA.png" width="450" height="300">
+    <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/GA.png" width="600" height="300">
 </p>
 
 * **Step 1**: A starting population is created -Initial population. In our case individuals are binary strings.
