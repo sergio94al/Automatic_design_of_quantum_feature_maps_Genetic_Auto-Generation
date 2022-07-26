@@ -1,4 +1,4 @@
-# Automatic Design of Quantum Feature Maps:  Quantum-Inspired Kernels Auto-generated Genetically
+# Automatic Design of Quantum Feature Maps:  Auto-generated Quantum-Inspired Kernels by using Genetic Algorithm
 
 This is the official code of the paper published on August 19, 2021: S. Altares-López, A. Ribeiro, J.J. García-Ripoll, *Automatic design
 of quantum feature maps*, Quantum Science and Technology, vol. 6, no.4, 2021 [1]. 
