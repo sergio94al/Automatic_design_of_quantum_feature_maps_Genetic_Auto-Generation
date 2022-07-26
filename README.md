@@ -17,8 +17,8 @@ The goal of the technique is to achieve the quantum circuit that provides the **
 
 * Maximize Accuracy
 * Minimize quantum classifier size
-* Find robutness solutions with high generalization power
-* Find quantum-inspired solutions
+* Find robutness classifiers with a high generalization power
+* Search of quantum-inspired solutions
 * Provide interpretability to the predicted results
 
 Taking into account the ansatz size, our goal is to minimize it as much as possible in order to have solutions that avoid expressibility problems. This is possible because we code identity gates, which allows the **possibility of eliminating gates, layers and even number of qubits in the circuits**.
