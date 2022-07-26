@@ -87,7 +87,7 @@ The resulting circuit can be decomposed by qubits because there are no entanglin
 
 ## How to Cite
 
-Authors of scientific papers including results generated using this technique are encouraged to cite the following paper:
+Authors of scientific papers including results generated using this technique or these ideas, are encouraged to cite the following paper:
 
 * Altares-López, S., Ribeiro, A., & García-Ripoll, J. J. (2021). Automatic design of quantum feature maps. Quantum Science and Technology, 6(4), 045015.
 ```xml
