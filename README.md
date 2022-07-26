@@ -1,7 +1,7 @@
 # Automatic Design of Quantum Feature Maps:  Quantum-Inspired Kernels generated Genetically
 
-This is the official code of the paper published on August 19, 2021: S. Altares-López, A. Ribeiro, J.J. García-Ripoll, Automatic design
-of quantum feature maps, Quantum Science and Technology, vol. 6, no.4, 2021. 
+This is the official code of the paper published on August 19, 2021: S. Altares-López, A. Ribeiro, J.J. García-Ripoll, *Automatic design
+of quantum feature maps*, Quantum Science and Technology, vol. 6, no.4, 2021. 
 
 DOI: https://doi.org/10.1088/2058-9565/ac1ab1
 
@@ -99,5 +99,5 @@ Authors of scientific papers including results generated using this technique ar
 
 ## References
 
-* S. Altares-López, A. Ribeiro, J.J. García-Ripoll, "Automatic design of quantum feature maps", Quantum Science and Technology, vol. 6, no.4, 2021. https://doi.org/10.1088/2058-9565/ac1ab1
-* De Rainville, F. M., Fortin, F. A., Gardner, M. A., Parizeau, M., & Gagné, C. (2012, July). Deap: A python framework for evolutionary algorithms. In Proceedings of the 14th annual conference companion on Genetic and evolutionary computation (pp. 85-92). https://doi.org/10.1145/2330784.2330799
+* S. Altares-López, A. Ribeiro, J.J. García-Ripoll, *Automatic design of quantum feature maps*, Quantum Science and Technology, vol. 6, no.4, 2021. https://doi.org/10.1088/2058-9565/ac1ab1
+* De Rainville, F. M., Fortin, F. A., Gardner, M. A., Parizeau, M., & Gagné, C. (2012, July). *Deap: A python framework for evolutionary algorithms*. In Proceedings of the 14th annual conference companion on Genetic and evolutionary computation (pp. 85-92). https://doi.org/10.1145/2330784.2330799
