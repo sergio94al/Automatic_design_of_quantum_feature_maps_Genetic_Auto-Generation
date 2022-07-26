@@ -5,6 +5,16 @@ of quantum feature maps*, Quantum Science and Technology, vol. 6, no.4, 2021.
 
 DOI: https://doi.org/10.1088/2058-9565/ac1ab1
 
+## Goals of the Technique
+
+* Maximize Accuracy
+* Minimize quantum classifier size, in terms of quantum gates, layers and number of qubits, thus, reducing the expressibility of the circuits.
+* Generate an automatic and optimized data encoding in the quantum feature map
+* Optimization of the circuit structure, gates types and its parameters *θ*
+* Find robutness classifiers with a high generalization power
+* Search of quantum-inspired solutions
+* Provide interpretability to the predicted results
+
 ## Genetic-Quantum Feature Maps: Technique
 
 In this paper we propose a novel technique that allows the automatic generation of quantum-inspired kernels for classification by using Quantum Support Vector Machine (QSVM), based on multi-objective genetic algorithms.
@@ -14,14 +24,6 @@ In this paper we propose a novel technique that allows the automatic generation 
 </p>
 
 The goal of the technique is to achieve the quantum circuit that provides the **best accuracy** on test data, as well as the **smallest ansatz size**. As the objective of the fitness function is the test accuracy, we force the circuit to be robust and to **avoid overfitting effects, being quantum classifiers with a high generalization power**. 
-
-* Maximize Accuracy
-* Minimize quantum classifier size, in terms of quantum gates, layers and number of qubits, thus, reducing the expressibility of the circuits.
-* Generate an automatic and optimized data encoding in the quantum feature map
-* Optimization of the circuit structure, gates types and its parameters *θ*
-* Find robutness classifiers with a high generalization power
-* Search of quantum-inspired solutions
-* Provide interpretability to the predicted results
 
 Taking into account the ansatz size, our goal is to minimize it as much as possible in order to have solutions that avoid expressibility problems. This is possible because we code identity gates, which allows the **possibility of eliminating gates, layers and even number of qubits in the circuits**.
 
