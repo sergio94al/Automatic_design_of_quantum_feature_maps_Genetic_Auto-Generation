@@ -27,9 +27,9 @@ Taking into account the ansatz size, our goal is to minimize it as much as possi
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Size_metric.png" width="250" height="50">
 </p>
 
-## Genetic algorithms (GA)
+## Multi-Objetive Genetic Algorithm (GA)
 
-These are algorithms allow the exploration of large solution spaces in order to find the most optimal or closest solutions, since the methodology is meta-heuristic. Since we have two objectives, we use Pareto Front in order to save the best non-dominated solutions. Those solutions that, improve one of the two objectives without getting worse results in the other effort metric are saved.
+These are algorithms allow the exploration of large solution spaces in order to find the most optimal or closest solutions, since the methodology is meta-heuristic. Since we have two objectives, we use **Pareto Front in order to find and save the non-dominated solutions**. Those solutions that, improve one of the two objectives without getting worse results in the other effort metric are saved.
 
 <p align="center">
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/GA.png" width="450" height="300">
