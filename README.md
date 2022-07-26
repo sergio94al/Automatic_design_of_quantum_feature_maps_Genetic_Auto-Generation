@@ -60,9 +60,9 @@ The resulting circuit can be decomposed by qubits because there are no entanglin
 
 ## Files description
 
-* circuit.py: We create the quantum operators
+* circuit.py: We create the quantum operators that will composed the quantum circuit.
 * fitness.py: Evaluation fuction of the genetic algorithm (we fit 2 variables to return -the objetives)
-* gsvm.py: Genetic algorithm function in order. We call the fitness function
+* gsvm.py: Genetic algorithm function with the genetic operators. We call the fitness function.
 * qsvm.py: We create a simulated quantum support vector machine by using sklearn.
 * encoding.py: In this file we create the encoding of the quantum gates and the parameters θ.
 * encoding2.py: This file is used to visualize the solution after the evolution.
@@ -70,4 +70,5 @@ The resulting circuit can be decomposed by qubits because there are no entanglin
 
 ## References
 
-* S. Altares-López, A. Ribeiro, J.J. García-Ripoll, Automatic design of quantum feature maps, Quantum Science and Technology, vol. 6, no.4, 2021. https://doi.org/10.1088/2058-9565/ac1ab1
+* S. Altares-López, A. Ribeiro, J.J. García-Ripoll, "Automatic design of quantum feature maps", Quantum Science and Technology, vol. 6, no.4, 2021. https://doi.org/10.1088/2058-9565/ac1ab1
+* De Rainville, F. M., Fortin, F. A., Gardner, M. A., Parizeau, M., & Gagné, C. (2012, July). Deap: A python framework for evolutionary algorithms. In Proceedings of the 14th annual conference companion on Genetic and evolutionary computation (pp. 85-92). https://doi.org/10.1145/2330784.2330799
