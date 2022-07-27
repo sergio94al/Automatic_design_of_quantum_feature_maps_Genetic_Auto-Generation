@@ -28,7 +28,7 @@ The goal of the technique is to achieve the quantum circuit that provides the **
 Taking into account the ansatz size, our goal is to minimize it as much as possible in order to have solutions that avoid expressivity problems. This is possible because we code identity gates, which allows the **possibility of eliminating gates, layers and even reduce the number of qubits in the circuits**.
 
 <p align="center">
-    <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Ansatz_build.png" width="500" height="350">
+    <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Ansatz_build.png" width="500" height="350">
 </p>
 
  In addition, we penalize the occurrence of CNOT (entangling gates), in order to achieve solutions with **lower computational cost and quantum-inspired machine learning solutions**, by using the following expression.
