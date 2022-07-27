@@ -8,7 +8,7 @@ DOI: https://doi.org/10.1088/2058-9565/ac1ab1
 ## Goals of the Technique
 
 * Maximize Accuracy.
-* Minimize quantum classifier size, in terms of quantum gates, layers and number of qubits, thus, reducing the expressivity of the circuits.
+* Minimize quantum classifier size, in terms of quantum gates, layers and number of qubits, thus, reducing the expressivity of the quantum circuits.
 * Generate an automatic and optimized system for data encoding of classical information into the quantum feature maps.
 * Optimization of the circuit structure, gate types and its parameters *θ*.
 * Find robustness classifiers with a high generalization power.
@@ -77,7 +77,7 @@ The resulting circuit can be decomposed by qubits because there are no entanglin
 
 ## Other Insights
 
-By using this technique, we are able to include **many variables in few qubits**, because the genetic algorithm takes into account the possibility of combining more than one variables per qubits as in the Parkinson's example [4]. In this use case 22 variables are included in 8 qubits, **decreasing considerably the expressivity of the circuit-solutions**.
+By using this technique, we are able to include **many variables in few qubits**, because the genetic algorithm takes into account the possibility of combining more than one variables per qubits as in the Parkinson's example [4]. In this use case 22 variables are included in 8 qubits, **decreasing considerably the expressivity of the circuits-solution**.
 
 <p align="center">
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/park.png" alt='qubits vs. quantum circuit' width="500" height="300"> 
