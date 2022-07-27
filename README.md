@@ -53,7 +53,7 @@ These are algorithms allow the exploration of large solution spaces in order to 
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Wcontrol.png" width="400" height="30">
 </p>
 
-* **Step 3**: We select the best individuals. We apply genetic operators of crossover (Two-points) and mutation (Flipbit), generating new individuals (offspring) for the next generation. These operators are applied with a probability *p_{m}* and *p_{c}* since not all individuals have mutations. The mutation operator allows us to reach other points in the search space since it allows us to **avoid local minima**, making the search for the best solution more efficient.
+* **Step 3**: We select the best individuals. We apply genetic operators of crossover (Two-points) and mutation (Flipbit), generating new individuals (offspring) for the next generation. These operators are applied with a probability *Pm* and *Pc*. The mutation operator allows us to reach other points in the search space since it allows us to **avoid local minima**, making the search for the best solution more efficient.
 
 * **Step 4**: The process is repeated until convergence or when stop conditions are achieved.
 
