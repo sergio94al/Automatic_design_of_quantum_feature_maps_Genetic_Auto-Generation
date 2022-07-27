@@ -77,7 +77,7 @@ The resulting circuit can be decomposed by qubits because there are no entanglin
 
 ## Other Insights
 
-By using this technique, we are able to include **many variables in few qubits**, because the genetic algorithm takes into account the possibility of combining more than one variables per qubits as in the Parkinson's example [4]. In this use case 22 variables are included in 8 qubits, decreasing considerably the expressivity of the circuit-solution.
+By using this technique, we are able to include **many variables in few qubits**, because the genetic algorithm takes into account the possibility of combining more than one variables per qubits as in the Parkinson's example [4]. In this use case 22 variables are included in 8 qubits, **decreasing considerably the expressivity of the circuit-solutions**.
 
 <p align="center">
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/park.png" alt='qubits vs. quantum circuit' width="500" height="300"> 
