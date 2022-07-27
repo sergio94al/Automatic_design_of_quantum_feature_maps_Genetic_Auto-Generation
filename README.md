@@ -1,7 +1,7 @@
 # Automatic Design of Quantum Feature Maps:  Auto-generated Quantum-Inspired Kernels by using Genetic Algorithms (AQIK)
 
 This is the official code of the paper published on August 19, 2021: S. Altares-López, A. Ribeiro, J.J. García-Ripoll, *Automatic design
-of quantum feature maps*, Quantum Science and Technology, vol. 6, no.4, 2021 [1]. 
+of quantum feature maps*, Quantum Science and Technology, vol. 6, no. 4, 2021 [1]. 
 
 DOI: https://doi.org/10.1088/2058-9565/ac1ab1
 
@@ -120,7 +120,7 @@ Authors of scientific papers including results generated using this technique or
 
 ## References
 
-* [1] S. Altares-López, A. Ribeiro, J.J. García-Ripoll, *Automatic design of quantum feature maps*, Quantum Science and Technology, vol. 6, no.4, 2021. https://doi.org/10.1088/2058-9565/ac1ab1
+* [1] S. Altares-López, A. Ribeiro, J.J. García-Ripoll, *Automatic design of quantum feature maps*, Quantum Science and Technology, vol. 6, no. 4, 2021. https://doi.org/10.1088/2058-9565/ac1ab1
 * [2] De Rainville, F. M., Fortin, F. A., Gardner, M. A., Parizeau, M., & Gagné, C. (2012, July). *Deap: A python framework for evolutionary algorithms*. In Proceedings of the 14th annual conference companion on Genetic and evolutionary computation (pp. 85-92). https://doi.org/10.1145/2330784.2330799
 * [3] Patel H 2020 Intelligent irrigation system (by using temperature and moisture data) - Kaggle Dataset. https://www.kaggle.com/harshilpatel355/autoirrigationdata
 * [4] Little, M., Mcsharry, P., Roberts, S., Costello, D., & Moroz, I. (2007). Exploiting nonlinear recurrence and fractal scaling properties for voice disorder detection. Nature Precedings, 1-1.
