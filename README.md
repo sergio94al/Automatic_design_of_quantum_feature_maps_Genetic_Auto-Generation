@@ -57,7 +57,7 @@ These are algorithms allow the exploration of large solution spaces in order to 
 
 * **Step 4**: The process is repeated until convergence or when stop conditions are achieved.
 
-## Interpretability of results
+## Interpretability of Results
 
 Once the evolution is finished, we obtain the optimized quantum circuit with the best test accuracy - thus ensuring that there is no overfitting on the train data, being classifiers with a high generalization power and robustness - and with the lowest number of quantum gates and qubits.
 
@@ -83,7 +83,7 @@ By using this technique, we are able to include **many variables in few qubits**
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/park.png" alt='qubits vs. quantum circuit' width="500" height="300"> 
 </p>
 
-## Files description
+## Files Description
 
 * circuit.py: We create the quantum operators that will composed the quantum circuit.
 * fitness.py: Evaluation fuction of the genetic algorithm (we fit 2 variables to return -the objetives)
