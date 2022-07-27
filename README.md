@@ -5,7 +5,7 @@ of quantum feature maps*, Quantum Science and Technology, vol. 6, no.4, 2021 [1]
 
 DOI: https://doi.org/10.1088/2058-9565/ac1ab1
 
-## Goals of the Technique
+### Goals of the Technique
 
 * Maximize Accuracy.
 * Minimize quantum classifier size, in terms of quantum gates, layers and number of qubits, thus, reducing the expressibility of the circuits.
