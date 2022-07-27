@@ -8,7 +8,7 @@ DOI: https://doi.org/10.1088/2058-9565/ac1ab1
 ## Goals of the Technique
 
 * Maximize Accuracy.
-* Minimize quantum classifier size, in terms of quantum gates, layers and number of qubits, thus, reducing the expressibility of the circuits.
+* Minimize quantum classifier size, in terms of quantum gates, layers and number of qubits, thus, reducing the expressivity of the circuits.
 * Generate an automatic and optimized system for data encoding of classical information into the quantum feature maps.
 * Optimization of the circuit structure, gate types and its parameters *θ*.
 * Find robustness classifiers with a high generalization power.
@@ -25,7 +25,7 @@ In this paper we propose a novel technique for quantum machine learning (QML) wh
 
 The goal of the technique is to achieve the quantum circuit that provides the **best accuracy** on test data, as well as the **smallest ansatz size**. Since the objective of the fitness function is the test accuracy, we force the circuits-solution to be robust and to **avoid overfitting effects, being quantum classifiers with a high generalization power**. 
 
-Taking into account the ansatz size, our goal is to minimize it as much as possible in order to have solutions that avoid expressibility problems. This is possible because we code identity gates, which allows the **possibility of eliminating gates, layers and even reduce the number of qubits in the circuits**.
+Taking into account the ansatz size, our goal is to minimize it as much as possible in order to have solutions that avoid expressivity problems. This is possible because we code identity gates, which allows the **possibility of eliminating gates, layers and even reduce the number of qubits in the circuits**.
 
 <p align="center">
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Ansatz_build.png" width="500" height="350">
@@ -77,7 +77,7 @@ The resulting circuit can be decomposed by qubits because there are no entanglin
 
 ## Other Insights
 
-By using this technique, we are able to include **many variables in few qubits**, because the genetic algorithm takes into account the possibility of combining more than one variables per qubits as in the Parkinson's example [4]. In this use case 22 variables are included in 8 qubits, decreasing considerably the expressivity of the circuit solution.
+By using this technique, we are able to include **many variables in few qubits**, because the genetic algorithm takes into account the possibility of combining more than one variables per qubits as in the Parkinson's example [4]. In this use case 22 variables are included in 8 qubits, decreasing considerably the expressivity of the circuit-solution.
 
 <p align="center">
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/park.png" alt='qubits vs. quantum circuit' width="500" height="300"> 
