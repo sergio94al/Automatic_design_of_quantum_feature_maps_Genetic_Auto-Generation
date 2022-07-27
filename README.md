@@ -15,7 +15,7 @@ DOI: https://doi.org/10.1088/2058-9565/ac1ab1
 * Search of quantum-inspired solutions that can be implemented on classical computers.
 * Provide interpretability to the predicted results.
 
-## Genetic-Quantum Feature Maps: Technique
+## Genetic Quantum Feature Maps: Technique
 
 In this paper we propose a novel technique for **quantum machine learning** (QML) which allows for tabular datasets the **automatic generation of quantum-inspired kernels for classification** by using Quantum Support Vector Machine (QSVM), based on multi-objective genetic algorithms.
 
@@ -37,7 +37,7 @@ Taking into account the ansatz size, our goal is to minimize it as much as possi
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Size_metric.png" width="325" height="60">
 </p>
 
-## Multi-Objetive Genetic Algorithm (GA)
+## Multi-Objetive Genetic Algorithm (MO-GA)
 
 These are algorithms allow the exploration of large solution spaces in order to find the most optimal or closest solutions, since the methodology is meta-heuristic [2]. Since we have two objectives, we use **NSGA-II algorithm and Pareto Front, in order to find and save the non-dominated solutions**. Those solutions that, improve one of the two objectives without getting worse results in the other effort metric are saved. In order to provide a **higher degree of elitism** to the technique, we use the *μ+λ* algorithm, which face parents against their offspring, keeping the best individuals for the following generations.
 
