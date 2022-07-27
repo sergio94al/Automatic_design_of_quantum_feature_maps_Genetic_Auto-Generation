@@ -12,7 +12,7 @@ DOI: https://doi.org/10.1088/2058-9565/ac1ab1
 * Generate an automatic and optimized data encoding in the quantum feature maps.
 * Optimization of the circuit structure, gate types and its parameters *θ*.
 * Find robustness classifiers with a high generalization power.
-* Search of quantum-inspired solutions that can be implemented on classic computers.
+* Search of quantum-inspired solutions that can be implemented on classical computers.
 * Provide interpretability to the predicted results.
 
 ## Genetic-Quantum Feature Maps: Technique
