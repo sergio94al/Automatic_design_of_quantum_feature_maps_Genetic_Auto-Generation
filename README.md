@@ -26,7 +26,7 @@ We propose a new technique for the **automatic generation of optimal ad-hoc ans√
 * **Quantum advantage** taking into account the simplicity of the quantum classifiers and their results comparing to classical models.
 
 
-## Genetic Quantum Feature Maps: Technique
+## Genetic Quantum Feature Maps: Algorithm
 
 In this paper we propose a novel technique for **quantum machine learning** (QML) which allows for tabular datasets the **automatic generation of quantum-inspired kernels for classification** by using Quantum Support Vector Machine (QSVM), based on Multi-Objective Genetic Algorithms (MO-GA).
 
@@ -35,11 +35,6 @@ In this paper we propose a novel technique for **quantum machine learning** (QML
 </p>
 
 The goal of the technique is to achieve the quantum circuit that provides the **best accuracy** on test data, as well as the **smallest ansatz size**. Since the objective of the fitness function is the test accuracy, we force the circuits-solution to be robust and to **avoid overfitting effects, being quantum classifiers with a high generalization power**. 
-
-### Evolutionary Quantum Classifier Searching Technqiue
-* Firstly, quantum gates H, CNOT and parameterized in the X,Y,Z axes with 4 associated angles are pre-coded to binary code. Each gate is coded into 5 bits, being the first 3 bits for gate selection and the last 2 bits for angle if necessary. During the process, binary strings (individuals) are created, which will encode for a specific ansatz. 
-* This circuit will later be used to fit the QSVM with the traininig data. Once the model with the encoded individual is obtained, a prediction is made on the test data, thus calculating the accuracy with respect to the ground truth. One of the objectives of the multiobjetive genetic algorithm is maximizing this metric, thus achieving high success rates and with the power of generalisation due to the fact that the accuracy that is maximized is calculated with respect to predictions for a partition of data not previously seen by the model (test data). 
-* At the same time, the number of gates of the quantum feature map is calculated, penalizing doubly the entangling operators due to a higher computational cost. The best individuals are kept in the Pareto front.
 
 Taking into account the ansatz size, our goal is to minimize it as much as possible in order to have solutions that avoid expressivity problems. This is possible because we code identity gates, which allows the **possibility of eliminating gates, layers and even reduce the number of qubits in the circuits**.
 
@@ -61,9 +56,12 @@ Evolutionary algorithms allow the exploration of large solution spaces in order 
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/GA.png" width="550" height="400">
 </p>
 
-* **Step 1**: A starting population is created -Initial population. In our case individuals are binary strings.
+### Evolutionary Quantum Classifier Searching Algorithm
 
-* **Step 2**: These individuals are evaluated in a **fitness function**. The output of this function will determine whether the individual is accurate for the given problem or not. In the proposed technique, the **binary strings are converted into quantum circuits** which will act as feature maps into QSVM. Firstly, the classifier is fitted with training set and then we make predictions over test set **-searching generalization power-**, getting the objetive of the fitness function.  At the same time, we calculate the number of gates and we calculate a metric -Weight Control- in order to find a **balance between both metrics**, the accuracy and the reduction of number of gates. It is important since a high weight on the reducing circuit size objetive can lead less accuracy because of information loss.
+* **Step 1**: Firstly, quantum gates H, CNOT and parameterized in the X,Y,Z axes with 4 associated angles are pre-coded to binary code. Each gate is coded into 5 bits, being the first 3 bits for gate selection and the last 2 bits for angle if necessary. During the process, binary strings (individuals) are created, which will encode for a specific ansatz.
+* **Step 2**: A starting population is created -Initial population.
+
+* **Step 2**: These individuals are evaluated in a **fitness function**. The output of this function will determine whether the individual is accurate for the given problem or not. In the proposed technique, the **binary strings are converted into quantum circuits** which will act as feature maps into QSVM. Firstly, the classifier is fitted with training set and then we make predictions over test set (data not previously seen by the model) **-seeking generalization power-**, getting the objetive of the fitness function. At the same time, we calculate the number of gates penalizing doubly the entangling operators due to a higher computational cost. We calculate a metric -Weight Control- in order to find a **balance between both metrics**, the accuracy and the reduction of number of gates. It is important since a high weight on the reducing circuit size objetive can lead less accuracy because of information loss. 
 
 <p align="center">
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Wcontrol.png" width="400" height="30">
@@ -71,7 +69,7 @@ Evolutionary algorithms allow the exploration of large solution spaces in order 
 
 * **Step 3**: We select the best individuals. We apply **genetic operators** of crossover (Two-points) and mutation (Flipbit), generating new individuals (offspring) for the next generation. These operators are applied with a probability *Pm* and *Pc* respectively. The mutation operator allows us to reach other points in the search space since it allows us to **avoid local minima**, making the search for the best solution more efficient.
 
-* **Step 4**: The process is repeated until convergence or when stop conditions are achieved.
+* **Step 4**: The process is repeated until convergence or when stop conditions are achieved. The best individuals are kept in the Pareto front.
 
 ## Interpretability of Results
 
