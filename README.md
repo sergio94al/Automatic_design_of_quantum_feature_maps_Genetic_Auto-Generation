@@ -59,17 +59,18 @@ Evolutionary algorithms allow the exploration of large solution spaces in order 
 ### Evolutionary Quantum Classifier Searching Algorithm
 
 * **Step 1**: Firstly, quantum gates H, CNOT and parameterized in the X,Y,Z axes with 4 associated angles are pre-coded to binary code. Each gate is coded into 5 bits, being the first 3 bits for gate selection and the last 2 bits for angle if necessary. During the process, binary strings (individuals) are created, which will encode for a specific ansatz.
+
 * **Step 2**: A starting population is created -Initial population.
 
-* **Step 2**: These individuals are evaluated in a **fitness function**. The output of this function will determine whether the individual is accurate for the given problem or not. In the proposed technique, the **binary strings are converted into quantum circuits** which will act as feature maps into QSVM. Firstly, the classifier is fitted with training set and then we make predictions over test set (data not previously seen by the model) **-seeking generalization power-**, getting the objetive of the fitness function. At the same time, we calculate the number of gates penalizing doubly the entangling operators due to a higher computational cost. We calculate a metric -Weight Control- in order to find a **balance between both metrics**, the accuracy and the reduction of number of gates. It is important since a high weight on the reducing circuit size objetive can lead less accuracy because of information loss. 
+* **Step 3**: These individuals are evaluated in the **evaluation function or *fitness***. The output of this function will determine whether the individual is accurate for the given problem or not. In the proposed technique, the **binary strings are converted into quantum circuits** which will act as feature maps into QSVM. Firstly, the classifier is fitted with training set and then we make predictions over test set (data not previously seen by the model) **-seeking generalization power-**, getting the objetive of the fitness function. At the same time, we calculate the number of gates penalizing doubly the entangling operators due to a higher computational cost. We calculate a metric -Weight Control- in order to find a **balance between both metrics**, the accuracy and the reduction of number of gates. It is important since a high weight on the reducing circuit size objetive can lead less accuracy because of information loss. 
 
 <p align="center">
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Wcontrol.png" width="400" height="30">
 </p>
 
-* **Step 3**: We select the best individuals. We apply **genetic operators** of crossover (Two-points) and mutation (Flipbit), generating new individuals (offspring) for the next generation. These operators are applied with a probability *Pm* and *Pc* respectively. The mutation operator allows us to reach other points in the search space since it allows us to **avoid local minima**, making the search for the best solution more efficient.
+* **Step 4**: We select the best individuals. We apply **genetic operators** of crossover (Two-points) and mutation (Flipbit), generating new individuals (offspring) for the next generation. These operators are applied with a probability *Pm* and *Pc* respectively. The mutation operator allows us to reach other points in the search space since it allows us to **avoid local minima**, making the search for the best solution more efficient.
 
-* **Step 4**: The process is repeated until convergence or when stop conditions are achieved. The best individuals are kept in the Pareto front.
+* **Step 5**: The process is repeated until convergence or when stop conditions are achieved. The best individuals are kept in the Pareto front.
 
 ## Interpretability of Results
 
