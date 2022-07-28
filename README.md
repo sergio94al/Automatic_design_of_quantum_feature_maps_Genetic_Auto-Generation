@@ -13,7 +13,7 @@ We propose a new technique for the automatic generation of optimal ad-hoc ansät
 
 * Maximize Accuracy.
 * Minimize quantum classifier size, in terms of quantum gates, layers and number of qubits, thus, reducing the expressivity of the quantum circuits.
-* Taking into account the **use case** generating **ad-hoc classifiers** for each data set.
+* Take into account the **use case** generating **ad-hoc classifiers** for each data set.
 * Generate an automatic and optimized system for data encoding of classical information into the quantum feature maps.
 * Optimization of the circuit structure, gate types and its parameters *θ*.
 * Find robustness classifiers with a high generalization power.
