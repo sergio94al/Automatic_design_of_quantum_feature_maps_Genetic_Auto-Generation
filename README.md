@@ -47,7 +47,7 @@ Taking into account the ansatz size, our goal is to minimize it as much as possi
 
 ## Multi-Objetive Genetic Algorithm (MO-GA)
 
-These are algorithms allow the exploration of large solution spaces in order to find the most optimal or closest solutions, since the methodology is meta-heuristic [2]. Since we have two objectives, we use **NSGA-II algorithm and Pareto Front, in order to find and save the non-dominated solutions** [6]. Those solutions that, improve one of the two objectives without getting worse results in the other effort metric are saved. In order to provide a **higher degree of elitism** to the technique, we use the *μ+λ* algorithm, which face parents against their offspring, keeping the best individuals for the following generations.
+These are algorithms allow the exploration of large solution spaces in order to find the most optimal or closest solutions, since the methodology is meta-heuristic [2]. Since we have two objectives, we use **NSGA-II algorithm and Pareto Front, in order to find and save the non-dominated solutions** [3]. Those solutions that, improve one of the two objectives without getting worse results in the other effort metric are saved. In order to provide a **higher degree of elitism** to the technique, we use the *μ+λ* algorithm, which face parents against their offspring, keeping the best individuals for the following generations.
 
 <p align="center">
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/GA.png" width="550" height="400">
@@ -67,13 +67,13 @@ These are algorithms allow the exploration of large solution spaces in order to 
 
 ## Interpretability of Results
 
-Once the evolution is finished, we obtain the **optimized quantum circuit** with the best test accuracy - thus ensuring that there is no overfitting on the train data, being classifiers with a high generalization power and robustness - and with the lowest number of quantum gates and qubits for non-linear datasets [5].
+Once the evolution is finished, we obtain the **optimized quantum circuit** with the best test accuracy - thus ensuring that there is no overfitting on the train data, being classifiers with a high generalization power and robustness - and with the lowest number of quantum gates and qubits for non-linear datasets [6].
 
 <p align="center">
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/DS.png" width="350" height="220">               <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Optimized quantum feature map - moons.png" width="350" height="220">
 </p>
 
-The resulting quantum circuit can be decomposed by qubits because there are no entangling gates among them. **Each qubit constitutes its own kernel**. We note that when we evaluate each qubit separately does not provide a high accuracy for this non-linear dataset [5], as can be seen in the decision boundaries (b-d). However, the **combination of all kernels produces a prediction of 1.0 in test data** (a) with the next expression:
+The resulting quantum circuit can be decomposed by qubits because there are no entangling gates among them. **Each qubit constitutes its own kernel**. We note that when we evaluate each qubit separately does not provide a high accuracy for this non-linear dataset [6], as can be seen in the decision boundaries (b-d). However, the **combination of all kernels produces a prediction of 1.0 in test data** (a) with the next expression:
 
 <p align="center">
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/kernel.png" width="220" height="25">
@@ -85,7 +85,7 @@ The resulting quantum circuit can be decomposed by qubits because there are no e
 
 ## Other Insights
 
-By using this technique, we are able to include **many variables in few qubits**, because the genetic algorithm takes into account the possibility of combining more than one variables per qubits as in the Parkinson's example [4]. In this use case 22 variables are included in 8 qubits, **decreasing considerably the expressivity of the circuits-solution**.
+By using this technique, we are able to include **many variables in few qubits**, because the genetic algorithm takes into account the possibility of combining more than one variables per qubits as in the Parkinson's example [5]. In this use case 22 variables are included in 8 qubits, **decreasing considerably the expressivity of the circuits-solution**.
 
 <p align="center">
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/park.png" alt='qubits vs. quantum circuit' width="500" height="300"> 
@@ -102,7 +102,7 @@ By using this technique, we are able to include **many variables in few qubits**
 
 #### Notebook - Use case Folder:
 * Sample_Usecase.ipynb: Notebook used to launch the quantum feature maps' evolution, and save the best individuals which appear along the evolution in an excel file, so it can be decoded into a quantum circuit. 
-* sample_iot_data.csv: Dataset free available on Kaggle. Used as an example [3].
+* sample_iot_data.csv: Dataset free available on Kaggle. Used as an example [4].
 * sample_iot_result_n5.csv: Output file with the best individuals in the evolution. The structure of the file is:  *ID  |  Individual (quantum classifier) to be decoded | Weight control metric | Accuracy on test set*
 
 
@@ -130,8 +130,11 @@ Authors of scientific papers including results generated using this technique or
 
 * [1] S. Altares-López, A. Ribeiro, J.J. García-Ripoll, *Automatic design of quantum feature maps*, Quantum Science and Technology, vol. 6, no. 4, 2021. https://doi.org/10.1088/2058-9565/ac1ab1
 * [2] De Rainville, F. M., Fortin, F. A., Gardner, M. A., Parizeau, M., & Gagné, C. (2012, July). *Deap: A python framework for evolutionary algorithms*. In Proceedings of the 14th annual conference companion on Genetic and evolutionary computation (pp. 85-92). https://doi.org/10.1145/2330784.2330799
-* [3] Patel H 2020 Intelligent irrigation system (by using temperature and moisture data) - Kaggle Dataset. https://www.kaggle.com/harshilpatel355/autoirrigationdata
-* [4] Little, M., Mcsharry, P., Roberts, S., Costello, D., & Moroz, I. (2007). Exploiting nonlinear recurrence and fractal scaling properties for voice disorder detection. Nature Precedings, 1-1.
-* [5]  Thirion B, Varoquaux G, Gramfort A, Michel V, Grisel O, Louppe G and Nothman J scikit-datasets (generate samples of synthetic data sets). URL https://github.com/scikit-learn/scikit-learn
-* [6] Deb, K., Pratap, A., Agarwal, S., & Meyarivan, T. A. M. T. (2002). A fast and elitist multiobjective genetic algorithm: NSGA-II. IEEE transactions on evolutionary computation, 6(2), 182-197. DOI: 10.1109/4235.996017
+* [3] Deb, K., Pratap, A., Agarwal, S., & Meyarivan, T. A. M. T. (2002). A fast and elitist multiobjective genetic algorithm: NSGA-II. IEEE transactions on evolutionary computation, 6(2), 182-197. DOI: 10.1109/4235.996017
+
+#### Datasets
+
+* [4] Patel H 2020 Intelligent irrigation system (by using temperature and moisture data) - Kaggle Dataset. https://www.kaggle.com/harshilpatel355/autoirrigationdata
+* [5] Little, M., Mcsharry, P., Roberts, S., Costello, D., & Moroz, I. (2007). Exploiting nonlinear recurrence and fractal scaling properties for voice disorder detection. Nature Precedings, 1-1.
+* [6]  Thirion B, Varoquaux G, Gramfort A, Michel V, Grisel O, Louppe G and Nothman J scikit-datasets (generate samples of synthetic data sets). URL https://github.com/scikit-learn/scikit-learn
 
