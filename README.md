@@ -14,7 +14,7 @@ We propose a new technique for the **automatic generation of optimal ad-hoc ans√
 
 ## Goals of the Technique
 
-* Maximize Accuracy.
+* **Maximize Accuracy**.
 * **Minimize quantum classifier size**, in terms of quantum gates, layers and number of qubits, thus, reducing the expressivity of the quantum circuits.
 * Take into account the **use case**, generating **ad-hoc classifiers for each data set**.
 * Generate an **automatic and optimized system for data encoding** of classical information into the quantum feature maps.
