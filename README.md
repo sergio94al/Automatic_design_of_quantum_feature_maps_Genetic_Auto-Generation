@@ -26,7 +26,7 @@ We propose a new technique for the **automatic generation of optimal ad-hoc ans√
 * **Quantum advantage** taking into account the simplicity of the quantum classifiers and their results comparing to classical models.
 
 
-## Genetic Quantum Feature Maps: Algorithm
+## Genetic Quantum Feature Maps
 
 In this paper we propose a novel technique for **quantum machine learning** (QML) which allows for tabular datasets the **automatic generation of quantum-inspired kernels for classification** by using Quantum Support Vector Machine (QSVM), based on Multi-Objective Genetic Algorithms (MO-GA).
 
