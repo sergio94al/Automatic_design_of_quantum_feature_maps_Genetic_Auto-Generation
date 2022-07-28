@@ -121,13 +121,8 @@ Authors of scientific papers including results generated using this technique or
   url = {https://doi.org/10.1088%2F2058-9565%2Fac1ab1},
   publisher={IOP Publishing}
 }
+
 ```
-### Author affiliations
-* Consejo Superior de Investigaciones Científicas, Centre for Automation and Robotics-CAR (CSIC-UPM), Ctra. Campo Real km. 0,200, 28500 Arganda, Spain
-* Consejo Superior de Investigaciones Científicas, Instituto de Física Fundamental IFF-CSIC, Calle Serrano 113b, 28006 Madrid, Spain
-* Universidad Politécnica de Madrid, Programa de Doctorado de Automática y Robótica, Calle de José Gutiérrez Abascal 2, 28006 Madrid, Spain
-
-
 ## References
 
 * [1] S. Altares-López, A. Ribeiro, J.J. García-Ripoll, *Automatic design of quantum feature maps*, Quantum Science and Technology, vol. 6, no. 4, 2021. https://doi.org/10.1088/2058-9565/ac1ab1
