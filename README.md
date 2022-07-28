@@ -23,6 +23,8 @@ We propose a new technique for the **automatic generation of optimal ad-hoc ans√
 * Search of **quantum-inspired solutions** that can be implemented on classical computers.
 * Provide **interpretability of the predicted results**.
 * Capacity to include **many variables in few qubits**.
+* **Quantum advantage** taking into account the simplicity of the quantum classifiers and their results.
+
 
 ## Genetic Quantum Feature Maps: Technique
 
