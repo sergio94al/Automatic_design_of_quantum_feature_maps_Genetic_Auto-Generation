@@ -116,7 +116,7 @@ By using this technique, we are able to include **many variables in few qubits**
 
 Authors of scientific papers including results generated using this technique or these ideas, are encouraged to cite the following paper:
 
-* Altares-López, S., Ribeiro, A., & García-Ripoll, J. J. (2021). Automatic design of quantum feature maps. Quantum Science and Technology, 6(4), 045015. https://doi.org/10.1088%2F2058-9565%2Fac1ab1
+* Altares-López, S., Ribeiro, A., & García-Ripoll, J. J. (2021). Automatic design of quantum feature maps. Quantum Science and Technology, 6(4), 045015. https://doi.org/10.1088/2058-9565/ac1ab1
 ```xml
 @article{altares2021automatic,
   title={Automatic design of quantum feature maps},
