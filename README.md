@@ -69,7 +69,7 @@ Evolutionary algorithms allow the exploration of large solution spaces in order 
 
 * **Step 4**: We select the best individuals. We apply **genetic operators** of crossover (Two-points) and mutation (Flipbit), generating new individuals (offspring) for the next generation. These operators are applied with a probability *Pm* and *Pc* respectively. The mutation operator allows us to reach other points in the search space since it allows us to **avoid local minima**, making the search for the best solution more efficient.
 
-* **Step 5**: The process is repeated until convergence or when stop conditions are achieved. The best individuals are kept in the Pareto front.
+* **Step 5**: The process is repeated until convergence or when stop conditions are achieved. **The best individuals are kept in the Pareto front**.
 
 ## Interpretability of Results: QAI-Explainability Approach
 
