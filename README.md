@@ -5,7 +5,7 @@ of quantum feature maps*, Quantum Science and Technology, vol. 6, no. 4, 2021 [1
 
 DOI: https://doi.org/10.1088/2058-9565/ac1ab1
 
-* This work has also been presented in the *2nd European Quantum Technologies Conference* (Virtual Conference, Dublin, Ireland) in Poster format. https://az659834.vo.msecnd.net/eventsairwesteuprod/production-abbey-public/9641064fd4a342ab9c4d81cf221ac4dd
+* This work has also been presented in the *2nd European Quantum Technologies Conference* (Virtual Conference, Dublin, Ireland) in Poster format: https://az659834.vo.msecnd.net/eventsairwesteuprod/production-abbey-public/9641064fd4a342ab9c4d81cf221ac4dd
 
 ### Abstract
 
