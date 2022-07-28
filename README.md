@@ -7,7 +7,7 @@ DOI: https://doi.org/10.1088/2058-9565/ac1ab1
 
 ### Abstract
 
-We propose a new technique for the automatic generation of optimal ad-hoc ansätze for classification by using quantum support vector machine. This efficient method is based on non-sorted genetic algorithm II multiobjective genetic algorithms which allow both maximize the accuracy and minimize the ansatz size. It is demonstrated the validity of the technique by a practical example with a non-linear dataset, interpreting the resulting circuit and its outputs. We also show other application fields of the technique that reinforce the validity of the method, and a comparison with classical classifiers in order to understand the advantages of using quantum machine learning.
+We propose a new technique for the automatic generation of optimal ad-hoc ansätze for classification by using quantum support vector machine. This efficient method is based on NSGA-II multiobjective genetic algorithms which allow both maximize the accuracy and minimize the ansatz size. It is demonstrated the validity of the technique by a practical example with a non-linear dataset, interpreting the resulting circuit and its outputs. We also show other application fields of the technique that reinforce the validity of the method, and a comparison with classical classifiers in order to understand the advantages of using quantum machine learning.
 
 ## Goals of the Technique
 
