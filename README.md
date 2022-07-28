@@ -100,7 +100,7 @@ By using this technique, we are able to include **many variables in few qubits**
 * encoding.py: In this file we create the encoding of the quantum gates and the parameters *θ*.
 * encoding2.py: This file is used to visualize the solution after the evolution.
 
-#### Notebook - Use case Folder:
+### Notebook - Use case Folder:
 * Sample_Usecase.ipynb: Notebook used to launch the quantum feature maps' evolution, and save the best individuals which appear along the evolution in an excel file, so it can be decoded into a quantum circuit. 
 * sample_iot_data.csv: Dataset free available on Kaggle. Used as an example [4].
 * sample_iot_result_n5.csv: Output file with the best individuals in the evolution. The structure of the file is:  *ID  |  Individual (quantum classifier) to be decoded | Weight control metric | Accuracy on test set*
@@ -132,7 +132,7 @@ Authors of scientific papers including results generated using this technique or
 * [2] De Rainville, F. M., Fortin, F. A., Gardner, M. A., Parizeau, M., & Gagné, C. (2012, July). *Deap: A python framework for evolutionary algorithms*. In Proceedings of the 14th annual conference companion on Genetic and evolutionary computation (pp. 85-92). https://doi.org/10.1145/2330784.2330799
 * [3] Deb, K., Pratap, A., Agarwal, S., & Meyarivan, T. A. M. T. (2002). A fast and elitist multiobjective genetic algorithm: NSGA-II. IEEE transactions on evolutionary computation, 6(2), 182-197. DOI: 10.1109/4235.996017
 
-#### Datasets
+### Datasets
 
 * [4] Patel H 2020 Intelligent irrigation system (by using temperature and moisture data) - Kaggle Dataset. https://www.kaggle.com/harshilpatel355/autoirrigationdata
 * [5] Little, M., Mcsharry, P., Roberts, S., Costello, D., & Moroz, I. (2007). Exploiting nonlinear recurrence and fractal scaling properties for voice disorder detection. Nature Precedings, 1-1.
