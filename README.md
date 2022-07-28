@@ -73,7 +73,7 @@ Evolutionary algorithms allow the exploration of large solution spaces in order 
 Once the evolution is finished, we obtain the **optimized quantum circuit** with the best test accuracy - thus ensuring that there is no overfitting on the train data, being classifiers with a high generalization power and robustness - and with the lowest number of quantum gates and qubits for non-linear datasets [6].
 
 <p align="center">
-    <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/DS.png" width="350" height="220">               <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Optimized quantum feature map - moons.png" width="350" height="220">
+    <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/DS.png" width="300" height="200">               <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Optimized quantum feature map - moons.png" width="300" height="200">
 </p>
 
 The resulting quantum circuit can be decomposed by qubits because there are no entangling gates among them. **Each qubit constitutes its own kernel**. We note that when we evaluate each qubit separately does not provide a high accuracy for this non-linear dataset [6], as can be seen in the decision boundaries (b-d). However, the **combination of all kernels produces a prediction of 1.0 in test data** (a) with the next expression:
