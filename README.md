@@ -22,6 +22,7 @@ We propose a new technique for the **automatic generation of optimal ad-hoc ans√
 * Find robustness classifiers with a **high generalization power**.
 * Search of **quantum-inspired solutions** that can be implemented on classical computers.
 * Provide **interpretability of the predicted results**.
+* Capacity to include **many variables in few qubits**.
 
 ## Genetic Quantum Feature Maps: Technique
 
