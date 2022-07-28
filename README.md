@@ -72,7 +72,7 @@ Evolutionary algorithms allow the exploration of large solution spaces in order 
 
 * **Step 5**: The process is repeated until convergence or when stop conditions are achieved. The best individuals are kept in the Pareto front.
 
-## Interpretability of Results
+## Interpretability of Results: QAI-Explainability Approach
 
 Once the evolution is finished, we obtain the **optimized quantum circuit** with the best test accuracy - thus ensuring that there is no overfitting on the train data, being classifiers with a high generalization power and robustness - and with the lowest number of quantum gates and qubits for non-linear datasets [6].
 
