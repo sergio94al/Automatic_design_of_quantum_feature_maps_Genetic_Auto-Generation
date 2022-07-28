@@ -5,6 +5,11 @@ of quantum feature maps*, Quantum Science and Technology, vol. 6, no. 4, 2021 [1
 
 DOI: https://doi.org/10.1088/2058-9565/ac1ab1
 
+### Author affiliations
+* Consejo Superior de Investigaciones Científicas, Centre for Automation and Robotics-CAR (CSIC-UPM), Ctra. Campo Real km. 0,200, 28500 Arganda, Spain
+* Consejo Superior de Investigaciones Científicas, Instituto de Física Fundamental IFF-CSIC, Calle Serrano 113b, 28006 Madrid, Spain
+* Universidad Politécnica de Madrid, Programa de Doctorado de Automática y Robótica, Calle de José Gutiérrez Abascal 2, 28006 Madrid, Spain
+
 ### Abstract
 
 We propose a new technique for the automatic generation of optimal ad-hoc ansätze for classification by using quantum support vector machine. This efficient method is based on NSGA-II multiobjective genetic algorithms which allow both maximize the accuracy and minimize the ansatz size. It is demonstrated the validity of the technique by a practical example with a non-linear dataset, interpreting the resulting circuit and its outputs. We also show other application fields of the technique that reinforce the validity of the method, and a comparison with classical classifiers in order to understand the advantages of using quantum machine learning.
