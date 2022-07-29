@@ -11,7 +11,7 @@ We propose a new technique for the **automatic generation of optimal ad-hoc ans�
 
 * This work has also been presented in the *2nd European Quantum Technologies Conference* (Virtual Conference, Dublin, Ireland) in Poster format: https://az659834.vo.msecnd.net/eventsairwesteuprod/production-abbey-public/9641064fd4a342ab9c4d81cf221ac4dd
 
-## Goals of the Technique
+## 1. Goals of the Technique
 
 * **Maximize the accuracy on unseen data**.
 * **Minimize the quantum classifier size**, in terms of quantum gates, layers and number of qubits, thus, reducing the expressivity of the quantum circuits.
@@ -25,7 +25,7 @@ We propose a new technique for the **automatic generation of optimal ad-hoc ans�
 * **Quantum advantage** taking into account the simplicity of the quantum classifiers and their results comparing to classical models.
 
 
-## Genetic Quantum Feature Maps
+## 2. Genetic Quantum Feature Maps
 
 In this paper we propose a novel technique for **quantum machine learning** (QML) which allows for tabular datasets the **automatic generation of quantum-inspired kernels for classification** by using Quantum Support Vector Machine (QSVM), based on Multi-Objective Genetic Algorithms (MO-GA).
 
@@ -47,7 +47,7 @@ Taking into account the ansatz size, our goal is to minimize it as much as possi
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Size_metric.png" width="325" height="60">
 </p>
 
-## Multi-Objetive Genetic Algorithm (MO-GA)
+## 3. Multi-Objetive Genetic Algorithm (MO-GA)
 
 Evolutionary algorithms allow the exploration of large solution spaces in order to find the most optimal or closest solutions, since the methodology is meta-heuristic [2]. Since we have two objectives, we use **NSGA-II algorithm and Pareto Front, in order to find and save the non-dominated solutions** [3]. Those solutions that, improve one of the two objectives without getting worse results in the other effort metric are saved. In order to provide a **higher degree of elitism** to the technique, we use the *μ+λ* algorithm, which face parents against their offspring, keeping the best individuals for the following generations.
 
@@ -55,7 +55,7 @@ Evolutionary algorithms allow the exploration of large solution spaces in order 
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/GA.png" width="550" height="400">
 </p>
 
-### Evolutionary Quantum Classifiers Searching Algorithm
+### 3.1 Evolutionary Quantum Classifiers Searching Algorithm
 
 * **Step 1**: Firstly, quantum gates H, CNOT and parameterized in the X,Y,Z axes with 4 associated angles are pre-coded to binary code. Each gate is coded into 5 bits, being the first 3 bits for gate selection and the last 2 bits for angle if necessary. During the process, binary strings (individuals) are created, which will encode for a specific ansatz.
 
@@ -71,7 +71,7 @@ Evolutionary algorithms allow the exploration of large solution spaces in order 
 
 * **Step 5**: The process is repeated until convergence or when stop conditions are achieved. **The best individuals are kept in the Pareto front**.
 
-## Interpretability of Results
+## 4. Interpretability of Results
 
 Once the evolution is finished, we obtain the **optimized quantum circuit** with the best test accuracy - thus ensuring that there is no overfitting on the train data, being classifiers with a high generalization power and robustness - and with the lowest number of quantum gates and qubits for non-linear datasets [6].
 
@@ -79,7 +79,7 @@ Once the evolution is finished, we obtain the **optimized quantum circuit** with
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/DS.png" width="300" height="200">               <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Optimized quantum feature map - moons.png" width="300" height="200">
 </p>
 
-### QAI-Explainability Approach
+### 4.1 QAI-Explainability Approach
 The resulting quantum circuit can be decomposed by qubits because there are no entangling gates among them. **Each qubit constitutes its own kernel**. We note that when we evaluate each qubit separately does not provide a high accuracy for this non-linear dataset [6], as can be seen in the decision boundaries (b-d). However, the **combination of all kernels produces a prediction of 1.0 in test data** (a) with the next expression:
 
 <p align="center">
@@ -90,7 +90,7 @@ The resulting quantum circuit can be decomposed by qubits because there are no e
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Qubits_Interpretability.png" alt='qubits vs. quantum circuit' width="500" height="325">   
 </p>
 
-### Generalization Power
+### 4.2 Generalization Power
 We also create 500 random data of the same distribution [6], in order to understand the classifier's generalization power to previously unseen data. After the application of the circuit-solution we can conclude that this technique produces robust quantum-inspired classifiers for tabular data, obtaining an accuracy of 94.6%.
 
 <p align="center">
@@ -98,7 +98,7 @@ We also create 500 random data of the same distribution [6], in order to underst
 </p>
 
 
-## Other Insights
+## 5. Other Insights
 
 By using this technique, we are able to include **many variables in few qubits**, because the genetic algorithm takes into account the possibility of combining more than one variables per qubits as in the Parkinson's example [5]. In this use case 22 variables are included in 8 qubits, **decreasing considerably the expressivity of the circuits-solution**.
 
@@ -106,7 +106,7 @@ By using this technique, we are able to include **many variables in few qubits**
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/park.png" alt='qubits vs. quantum circuit' width="500" height="300"> 
 </p>
 
-## Files Description
+## 6. Files Description
 
 * circuit.py: We create the quantum operators that will composed the quantum circuit.
 * fitness.py: Evaluation fuction of the genetic algorithm (we fit 2 variables to return -the objetives)
@@ -115,13 +115,13 @@ By using this technique, we are able to include **many variables in few qubits**
 * encoding.py: In this file we create the encoding of the quantum gates and the parameters *θ*.
 * encoding2.py: This file is used to visualize the solution after the evolution.
 
-### Notebook - Use case Folder:
+### 6.1 Notebook - Use case Folder:
 * Sample_Usecase.ipynb: Notebook used to launch the quantum feature maps' evolution, and save the best individuals which appear along the evolution in an excel file, so it can be decoded into a quantum circuit. 
 * sample_iot_data.csv: Dataset free available on Kaggle. Used as an example [4].
 * sample_iot_result_n5.csv: Output file with the best individuals in the evolution. The structure of the file is:  *ID  |  Individual (quantum classifier) to be decoded | Weight control metric | Accuracy on test set*
 
 
-## How to Cite
+## 7. How to Cite
 
 Authors of scientific papers including results generated using this technique or these ideas, are encouraged to cite the following paper:
 
@@ -141,13 +141,13 @@ Authors of scientific papers including results generated using this technique or
 }
 
 ```
-## References
+## 8. References
 
 * [1] S. Altares-López, A. Ribeiro, J.J. García-Ripoll, *Automatic design of quantum feature maps*, Quantum Science and Technology, vol. 6, no. 4, 2021. https://doi.org/10.1088/2058-9565/ac1ab1
 * [2] De Rainville, F. M., Fortin, F. A., Gardner, M. A., Parizeau, M., & Gagné, C. (2012, July). *Deap: A python framework for evolutionary algorithms*. In Proceedings of the 14th annual conference companion on Genetic and evolutionary computation (pp. 85-92). https://doi.org/10.1145/2330784.2330799
 * [3] Deb, K., Pratap, A., Agarwal, S., & Meyarivan, T. A. M. T. (2002). A fast and elitist multiobjective genetic algorithm: NSGA-II. IEEE transactions on evolutionary computation, 6(2), 182-197. https://doi.org/10.1109/4235.996017
 
-### Datasets
+### 8.1 Datasets
 
 * [4] Patel H 2020 Intelligent irrigation system (by using temperature and moisture data) - Kaggle Dataset. https://www.kaggle.com/harshilpatel355/autoirrigationdata
 * [5] Little, M., Mcsharry, P., Roberts, S., Costello, D., & Moroz, I. (2007). Exploiting nonlinear recurrence and fractal scaling properties for voice disorder detection. Nature Precedings, 1-1.
