@@ -79,7 +79,7 @@ Once the evolution is finished, we obtain the **optimized quantum circuit** with
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/DS.png" width="300" height="200">               <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Optimized quantum feature map - moons.png" width="300" height="200">
 </p>
 
-### 4.1 QAI-Explainability Approach
+### 4.1 Quantum AI-Explainability Approach
 The resulting quantum circuit can be decomposed by qubits because there are no entangling gates among them. **Each qubit constitutes its own kernel**. We note that when we evaluate each qubit separately does not provide a high accuracy for this non-linear dataset [6], as can be seen in the decision boundaries (b-d). However, the **combination of all kernels produces a prediction of 1.0 in test data** (a) with the next expression:
 
 <p align="center">
