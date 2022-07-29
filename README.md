@@ -57,7 +57,7 @@ Evolutionary algorithms allow the exploration of large solution spaces in order 
 
 ### 3.1 Evolutionary Quantum Classifiers Searching Algorithm
 
-* **Step 1**: Firstly, quantum gates H, CNOT and parameterized in the X,Y,Z axes with 4 associated angles are pre-coded to binary code. Each gate is coded into 5 bits, being the first 3 bits for gate selection and the last 2 bits for angle if necessary. During the process, binary strings (individuals) are created, which will encode for a specific ansatz.
+* **Step 1**: Firstly, quantum gates H, CNOT and parameterized in the X,Y,Z axes with four associated angles are pre-coded to binary code. Each gate is coded into five bits, being the first three bits for gate selection and the last two bits for angle if necessary. During the process, binary strings (individuals) are created, which will encode for a specific ansatz.
 
 * **Step 2**: A starting population is created -Initial population.
 
