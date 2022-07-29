@@ -71,7 +71,7 @@ Evolutionary algorithms allow the exploration of large solution spaces in order 
 
 * **Step 5**: The process is repeated until convergence or when stop conditions are achieved. **The best individuals are kept in the Pareto front**.
 
-## Interpretability of Results: QAI-Explainability Approach
+## Interpretability of Results
 
 Once the evolution is finished, we obtain the **optimized quantum circuit** with the best test accuracy - thus ensuring that there is no overfitting on the train data, being classifiers with a high generalization power and robustness - and with the lowest number of quantum gates and qubits for non-linear datasets [6].
 
@@ -79,6 +79,7 @@ Once the evolution is finished, we obtain the **optimized quantum circuit** with
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/DS.png" width="300" height="200">               <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Optimized quantum feature map - moons.png" width="300" height="200">
 </p>
 
+### QAI-Explainability Approach
 The resulting quantum circuit can be decomposed by qubits because there are no entangling gates among them. **Each qubit constitutes its own kernel**. We note that when we evaluate each qubit separately does not provide a high accuracy for this non-linear dataset [6], as can be seen in the decision boundaries (b-d). However, the **combination of all kernels produces a prediction of 1.0 in test data** (a) with the next expression:
 
 <p align="center">
@@ -89,6 +90,7 @@ The resulting quantum circuit can be decomposed by qubits because there are no e
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Qubits_Interpretability.png" alt='qubits vs. quantum circuit' width="500" height="325">   
 </p>
 
+### Generalization Power
 We also create 500 random data of the same distribution [6], in order to understand the classifier's generalization power to previously unseen data. After the application of the circuit-solution we can conclude that this technique produces robust quantum-inspired classifiers for tabular data, obtaining an accuracy of 94.6%.
 
 <p align="center">
