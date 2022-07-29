@@ -92,7 +92,7 @@ The resulting quantum circuit can be decomposed by qubits because there are no e
 We also create 500 random data of the same distribution, in order to know the classifier's ability to generalize to previously unseen data. After the application of the circuit-solution we can conclude that this algorithm produces robust circuits, obtaining an accuracy of 94.6%.
 
 <p align="center">
-    <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/prediction_validation.png" width="300" height="200">               <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/conf_matrix.png" width="300" height="200">
+    <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/prediction_validation.png" width="300" height="200">               <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/conf_matrix.png" width="200" height="200">
 </p>
 
 
