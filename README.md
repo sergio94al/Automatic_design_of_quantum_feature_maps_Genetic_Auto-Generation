@@ -140,6 +140,7 @@ Authors of scientific papers including results generated using this technique or
   publisher={IOP Publishing}
 }
 
+**This code has been registered by the Spanish National Council of Research (CSIC). The use of this code requires the citation of this article.**
 ```
 ## 7. References
 
