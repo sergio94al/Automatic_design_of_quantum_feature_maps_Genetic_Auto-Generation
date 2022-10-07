@@ -139,9 +139,9 @@ Authors of scientific papers including results generated using this technique or
   url = {https://doi.org/10.1088%2F2058-9565%2Fac1ab1},
   publisher={IOP Publishing}
 }
-
-**This code has been registered by the Spanish National Council of Research (CSIC). The use of this code requires the citation of this article.**
 ```
+**This code has been registered by the Spanish National Council of Research (CSIC). The use of this code requires the citation of this article.**
+
 ## 7. References
 
 * [1] S. Altares-López, A. Ribeiro, J.J. García-Ripoll, *Automatic design of quantum feature maps*, Quantum Science and Technology, vol. 6, no. 4, 2021. https://doi.org/10.1088/2058-9565/ac1ab1
