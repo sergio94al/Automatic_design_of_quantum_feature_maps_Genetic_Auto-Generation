@@ -141,7 +141,7 @@ Authors of scientific papers including results generated using this technique or
 }
 ```
 <p align="center">
-  <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Logo_agrupado.png" width="500" height="150">
+  <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Logo_agrupado.png" width="500" height="125">
 </p>
 
 **This code has been registered by the Spanish National Council of Research (CSIC). The use of this code requires the citation of this article.**
