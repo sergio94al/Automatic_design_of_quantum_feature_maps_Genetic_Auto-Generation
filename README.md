@@ -140,6 +140,9 @@ Authors of scientific papers including results generated using this technique or
   publisher={IOP Publishing}
 }
 ```
+<p align="center">
+  <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/CSIC.png" width="200" height="150">
+</p>
 **This code has been registered by the Spanish National Council of Research (CSIC). The use of this code requires the citation of this article.**
 
 ## 7. References
