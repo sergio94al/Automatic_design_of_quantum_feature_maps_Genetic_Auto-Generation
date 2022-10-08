@@ -100,7 +100,7 @@ We also create 500 random data of the same distribution [6], in order to underst
 
 ## 4. Other Insights
 
-By using this technique, we are able to include **many variables in few qubits**, because the genetic algorithm takes into account the possibility of combining more than one variables per qubits as in the Parkinson's example [5]. In this use case 22 variables are included in 8 qubits, **decreasing considerably the expressivity of the circuits-solution**.
+By using this technique, we are able to include **many variables in few qubits**, because the genetic algorithm takes into account the possibility of combining more than one variables per qubits as in the Parkinson's example [5]. In this use case 22 variables are included in only 8 qubits with no correlations, **decreasing considerably the expressivity of the circuits-solution**.
 
 <p align="center">
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/park.png" alt='qubits vs. quantum circuit' width="500" height="300"> 
