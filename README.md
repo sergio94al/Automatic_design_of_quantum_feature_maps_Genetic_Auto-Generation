@@ -141,10 +141,10 @@ Authors of scientific papers including results generated using this technique or
 }
 ```
 <p align="center">
-  <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Logo_agrupado.png" width="500" height="125">
+  <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Logo_agrupado.png" width="510" height="140">
 </p>
 
-**This code has been registered by the Spanish National Council of Research (CSIC). The use of this code requires the citation of this article.**
+**This code has been registered by the Spanish National Council of Research (CSIC). Please note this code is the official code for article *Automatic design of quantum feature maps*. Do not forget to cite it.**
 
 ## 7. References
 
