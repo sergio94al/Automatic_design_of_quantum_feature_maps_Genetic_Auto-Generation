@@ -1,3 +1,8 @@
+
+<p align="center">
+    <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Logo_aquik.png" alt='qubits vs. quantum circuit' width="500" height="300"> 
+</p>
+
 # Automatic Design of Quantum Feature Maps:  Auto-generated Quantum-Inspired Kernels by using Multi-Objetive Genetic Algorithms (AQUIK)
 
 This is the official code of the paper published on August 19, 2021: S. Altares-López, A. Ribeiro, J.J. García-Ripoll, *Automatic design
