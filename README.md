@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Logo_aquik.png" alt='qubits vs. quantum circuit' width="500" height="300"> 
+    <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Logo_aquik.png" alt='qubits vs. quantum circuit' width="300" height="100"> 
 </p>
 
 # Automatic Design of Quantum Feature Maps:  Auto-generated Quantum-Inspired Kernels by using Multi-Objetive Genetic Algorithms (AQUIK)
