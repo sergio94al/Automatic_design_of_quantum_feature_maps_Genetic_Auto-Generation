@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/logo_aquik_.png" width="350" height="150">
+    <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/logo_aquik_.png" width="400" height="175">
 </p>
 
 # Automatic Design of Quantum Feature Maps:  Auto-generated Quantum-Inspired Kernels by using Multi-Objetive Genetic Algorithms (AQUIK)
