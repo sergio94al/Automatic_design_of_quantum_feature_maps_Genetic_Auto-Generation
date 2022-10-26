@@ -150,8 +150,8 @@ By using this technique, we are able to include **many variables in few qubits**
 </p>
 
 ```xml
-CSIC License number 101130Z
-This license has been provided through the use of blockchain.
+CSIC License number 101130Z. 
+Date: 2022-10-04. This license has been provided through the use of blockchain.
 ```
 
 ## 7. References
