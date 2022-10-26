@@ -151,6 +151,11 @@ Authors of scientific papers including results generated using this technique or
 
 **This code has been registered by the Spanish National Council of Research (CSIC). Please note this code is the official code for article *Automatic design of quantum feature maps*. Do not forget to cite it.**
 
+```xml
+CSIC License number 101130Z
+This license has been provided by blockchain.
+```
+
 ## 7. References
 
 * [1] S. Altares-López, A. Ribeiro, J.J. García-Ripoll, *Automatic design of quantum feature maps*, Quantum Science and Technology, vol. 6, no. 4, 2021. https://doi.org/10.1088/2058-9565/ac1ab1
