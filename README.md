@@ -153,7 +153,7 @@ Authors of scientific papers including results generated using this technique or
 
 ```xml
 CSIC License number 101130Z
-This license has been provided by blockchain.
+This license has been provided through the use of blockchain.
 ```
 
 ## 7. References
