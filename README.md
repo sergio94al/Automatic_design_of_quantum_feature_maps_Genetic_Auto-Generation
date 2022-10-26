@@ -128,7 +128,12 @@ By using this technique, we are able to include **many variables in few qubits**
 
 ## 6. How to Cite
 
-Authors of scientific papers including results generated using this technique or these ideas, are encouraged to cite the following paper:
+**This code has been registered by the Spanish National Council of Research (CSIC). Please note this code is the official code for article *Automatic design of quantum feature maps*. Authors of scientific papers including results generated using this technique or these ideas, are encouraged to cite this paper.**
+
+```xml
+CSIC License number 101130Z
+This license has been provided through the use of blockchain.
+```
 
 * Altares-López, S., Ribeiro, A., & García-Ripoll, J. J. (2021). Automatic design of quantum feature maps. Quantum Science and Technology, 6(4), 045015. https://doi.org/10.1088/2058-9565/ac1ab1
 ```xml
@@ -148,13 +153,6 @@ Authors of scientific papers including results generated using this technique or
 <p align="center">
   <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Logo_agrupado.png" width="510" height="140">
 </p>
-
-**This code has been registered by the Spanish National Council of Research (CSIC). Please note this code is the official code for article *Automatic design of quantum feature maps*. Do not forget to cite it.**
-
-```xml
-CSIC License number 101130Z
-This license has been provided through the use of blockchain.
-```
 
 ## 7. References
 
