@@ -16,10 +16,6 @@ We propose a new technique for the **automatic generation of optimal ad-hoc ans√
 
 * This work has also been presented in the *2nd European Quantum Technologies Conference* (Virtual Conference, Dublin, Ireland) in Poster format: https://az659834.vo.msecnd.net/eventsairwesteuprod/production-abbey-public/9641064fd4a342ab9c4d81cf221ac4dd
 
-<p align="center">
-    <img src="https://az659834.vo.msecnd.net/eventsairwesteuprod/production-abbey-public/9641064fd4a342ab9c4d81cf221ac4dd" width="400" height="165">
-</p>
-
 ## 0. Goals of the Technique
 
 * **Maximize the accuracy on unseen data**.
