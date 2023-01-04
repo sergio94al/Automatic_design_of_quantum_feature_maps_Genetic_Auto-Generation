@@ -150,8 +150,13 @@ By using this technique, we are able to include **many variables in few qubits**
 </p>
 
 ```xml
+© Copyright CSIC 2022.
 CSIC License number 101130Z. 
 Date: 2022-10-04. This license has been provided through the use of blockchain.
+
+Any modifications or derivative works of this code must retain this
+copyright notice, and modified files need to carry a notice indicating
+that they have been altered from the originals.
 ```
 
 ## 7. References
