@@ -3,7 +3,7 @@
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/logo_aquik_.png" width="400" height="165">
 </p>
 
-# Automatic Design of Quantum Feature Maps:  Auto-generated Quantum-Inspired Kernels by using Multi-Objetive Genetic Algorithms (AQUIK)
+# Automatic Design of Quantum Feature Maps:  Auto-generated Quantum-Inspired Kernels by using Multi-Objective Genetic Algorithms (AQUIK)
 
 This is the official code of the paper published on August 19, 2021: S. Altares-López, A. Ribeiro, J.J. García-Ripoll, *Automatic design of quantum feature maps*, Quantum Science and Technology, vol. 6, no. 4, 2021 [1]. Registered Software 2023 - CSIC.
 
@@ -11,7 +11,7 @@ This is the official code of the paper published on August 19, 2021: S. Altares-
 
 ### Abstract
 
-We propose a new technique for the **automatic generation of optimal ad-hoc ansätze for classification by using quantum support vector machine -kernel methods-**. This efficient method is based on NSGA-II multiobjective genetic algorithms which allow both maximize the accuracy and minimize the ansatz size. It is demonstrated the validity of the technique by a practical example with a **non-linear dataset**, interpreting the resulting circuit and its outputs. We also show other application fields of the technique that reinforce the validity of the method, and a comparison with classical classifiers in order to understand the advantages of using quantum machine learning.
+We propose a new technique for the **automatic generation of optimal ad-hoc ansätze for classification by using quantum support vector machine -kernel methods-**. This efficient method is based on NSGA-II multiobjective genetic algorithms which allow both maximize the accuracy and minimize the ansatz size. It is demonstrated the validity of the technique by a practical example with a **non-linear dataset**, interpreting the resulting circuit and its outputs. We also show other application fields of the technique that reinforce the validity of the method, and a comparison with classical classifiers to understand the advantages of using quantum machine learning.
 
 * This work has also been presented in the *2nd European Quantum Technologies Conference* (Virtual Conference, Dublin, Ireland) in Poster format: https://az659834.vo.msecnd.net/eventsairwesteuprod/production-abbey-public/9641064fd4a342ab9c4d81cf221ac4dd
 
@@ -26,7 +26,7 @@ We propose a new technique for the **automatic generation of optimal ad-hoc ans�
 * Search of **quantum-inspired solutions** that can be implemented on classical computers.
 * Provide **interpretability of the predicted results**.
 * Capacity to include **many variables in few qubits**.
-* **Quantum advantage** taking into account the simplicity of the quantum classifiers and their results comparing to classical models.
+* **Quantum advantage** taking into account the simplicity of the quantum classifiers and their results compared to classical models.
 
 
 ## 1. Genetic Quantum Feature Maps
@@ -39,7 +39,7 @@ In this paper we propose a novel technique for **quantum machine learning** (QML
 
 The goal of the technique is to achieve the quantum circuit that provides the **best accuracy** on test data, as well as the **smallest ansatz size**. Since the objective of the fitness function is the test accuracy, we force the circuits-solution to be robust and to **avoid overfitting effects, being quantum classifiers with a high generalization power**. 
 
-Taking into account the ansatz size, our goal is to minimize it as much as possible in order to have solutions that avoid expressivity problems. This is possible because we code identity gates, which allows the **possibility of eliminating gates, layers and even reduce the number of qubits in the circuits**.
+Taking into account the ansatz size, our goal is to minimize it as much as possible in order to have solutions that avoid expressivity problems. This is possible because we code identity gates, which allows the **possibility of eliminating gates, layers and even reducing the number of qubits in the circuits**.
 
 <p align="center">
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Ansatz_build.png" width="500" height="350">
@@ -51,9 +51,9 @@ Taking into account the ansatz size, our goal is to minimize it as much as possi
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Size_metric.png" width="325" height="60">
 </p>
 
-## 2. Multi-Objetive Genetic Algorithm (MO-GA)
+## 2. Multi-Objective Genetic Algorithm (MO-GA)
 
-Evolutionary algorithms allow the exploration of large solution spaces in order to find the most optimal or closest solutions, since the methodology is meta-heuristic [2]. Since we have two objectives, we use **NSGA-II algorithm and Pareto Front, in order to find and save the non-dominated solutions** [3]. Those solutions that, improve one of the two objectives without getting worse results in the other effort metric are saved. In order to provide a **higher degree of elitism** to the technique, we use the *μ+λ* algorithm, which face parents against their offspring, keeping the best individuals for the following generations.
+Evolutionary algorithms allow the exploration of large solution spaces in order to find the most optimal or closest solution since the methodology is meta-heuristic [2]. Since we have two objectives, we use **NSGA-II algorithm and Pareto Front, in order to find and save the non-dominated solutions** [3]. Those solutions that, improve one of the two objectives without getting worse results in the other effort metric are saved. In order to provide a **higher degree of elitism** to the technique, we use the *μ+λ* algorithm, which face parents against their offspring, keeping the best individuals for the following generations.
 
 <p align="center">
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/GA.png" width="550" height="400">
@@ -65,7 +65,7 @@ Evolutionary algorithms allow the exploration of large solution spaces in order 
 
 * **Step 2**: A starting population is created -Initial population.
 
-* **Step 3**: These individuals are evaluated in the **evaluation function or *fitness***. The output of this function will determine whether the individual is accurate for the given problem or not. In the proposed technique, the **binary strings are converted into quantum circuits** which will act as feature maps into QSVM. Firstly, the classifier is fitted with training set and then we make predictions over test set (data not previously seen by the model) **-seeking generalization power-**, getting the objetive of the fitness function. At the same time, we calculate the number of gates penalizing doubly the entangling operators due to a higher computational cost. We calculate a metric -Weight Control- in order to find a **balance between both metrics**, the accuracy and the reduction of number of gates. It is important since a high weight on the reducing circuit size objetive can lead less accuracy because of information loss. 
+* **Step 3**: These individuals are evaluated in the **evaluation function or *fitness***. The output of this function will determine whether the individual is accurate for the given problem or not. In the proposed technique, the **binary strings are converted into quantum circuits** which will act as feature maps into QSVM. Firstly, the classifier is fitted with training set and then we make predictions over test set (data not previously seen by the model) **-seeking generalization power-**, getting the objective of the fitness function. At the same time, we calculate the number of gates penalizing doubly the entangling operators due to a higher computational cost. We calculate a metric -Weight Control- in order to find a **balance between both metrics**, the accuracy and the reduction of number of gates. It is important since a high weight on the reducing circuit size objective can lead less accuracy because of information loss. 
 
 <p align="center">
     <img src="https://github.com/sergio94al/Automatic-design-of-quantum-feature-maps/blob/main/Images/Wcontrol.png" width="400" height="30">
@@ -113,7 +113,7 @@ By using this technique, we are able to include **many variables in few qubits**
 ## 5. Files Description
 
 * circuit.py: We create the quantum operators that will composed the quantum circuit.
-* fitness.py: Evaluation fuction of the genetic algorithm (we fit 2 variables to return -the objetives)
+* fitness.py: Evaluation fuction of the genetic algorithm (we fit 2 variables to return -the objectives)
 * gsvm.py: Genetic algorithm function with the genetic operators. We call the fitness function.
 * qsvm.py: We create a simulated quantum support vector machine by using sklearn.
 * encoding.py: In this file we create the encoding of the quantum gates and the parameters *θ*.
